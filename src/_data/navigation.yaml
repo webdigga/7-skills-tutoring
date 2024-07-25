@@ -1,9 +1,7 @@
 items:
   - text: Home
     url: /
-  - text: Lorem ipsum
-    url: /
-  - text: Lorem ipsum
-    url: /
-  - text: Lorem ipsum
+  - text: About Michael
+    url: /about-michael
+  - text: Contact
     url: /

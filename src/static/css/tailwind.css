@@ -26,25 +26,5 @@ body pre[class*="language-"] {
   @apply bg-gray-800;
 }
 
-.booking-form {
-	min-height: 1130px;
-}
-
-@media (min-width: 698px) {
-	.booking-form {
-		min-height: 1246px;
-	}
-}
-
-@media (min-width: 1024px) {
-	.article-content {
-		width: 848px;
-	}
-
-	.article-content--large {
-		width: 1024px;
-	}
-}
-
 /* To stop flicker after deferring Alpine JS */
 [x-cloak] { display: none !important; }

@@ -1,8 +1,7 @@
 ---
-title: Become a Divorce Coach
-description: A rewarding career in Divorce & Breakup coaching and support for
-  Domestic Abuse to fit around your lifestyle
-buttonText: Book a free call
-buttonUrl: /book-a-free-call/
+title: Lorem ipsum dolor sit amet,
+description: Lorem ipsum dolor sit amet,
+buttonText: About michael
+buttonUrl: /about-michael/
 image: /static/img/hero.webp
 ---
