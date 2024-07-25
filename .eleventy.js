@@ -74,10 +74,6 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("article");
   });
 
-  eleventyConfig.addCollection("blogPosts", function(collectionApi) {
-    return collectionApi.getFilteredByTags("blog");
-  });
-
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
   return {

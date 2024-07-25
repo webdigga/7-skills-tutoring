@@ -15,7 +15,7 @@
       <meta name="robots" content="noindex"/>
     {% endif %}
 
-    <meta name="google-site-verification" content="hmHlDrSLisVW7Gg6rkO6VSK4SzIu5whY96XbZM9DWmI" />
+    <meta name="google-site-verification" content="INSERTVERIFICATIONIDHERE" />
 
     <title>
       {% if title %}
@@ -97,28 +97,6 @@
       </script>
     {% endif %}
 
-    {% if type === 'blog' %}
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          "headline": "{{ env.site }}/{{ title | slugify }}/",
-          "image": "{{ heroImage }}",
-          "datePublished": "{{ date }}",
-          "isPartOf":{
-            "@type":"WebSite",
-            "name":"{{ settings.title }}",
-            "url":"{{ env.site }}",
-            "publisher":{
-              "@type":"Organization",
-              "name":"{{ settings.title }}",
-              "url":"{{ env.site }}"
-            }
-          }
-        }
-      </script>
-    {% endif %}
-
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
 
     {% if env.isProd %}
@@ -133,7 +111,7 @@
         'wait_for_update': 500,
         });
         gtag('js', new Date());
-        gtag('config', 'G-WGRXLNJQT5');
+        gtag('config', 'INSERTTAGIDHERE');
       </script>
     {% endif %}
   </head>
@@ -176,7 +154,7 @@
 
           var gtagScript = document.createElement('script');
           gtagScript.defer = true;
-          gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-WGRXLNJQT5';
+          gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=INSERTTAGIDHERE';
 
           var firstScript = document.getElementsByTagName('script')[0];
           firstScript.parentNode.insertBefore(gtagScript,firstScript);
