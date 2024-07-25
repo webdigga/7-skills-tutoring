@@ -117,10 +117,17 @@
   </head>
 
   <body class="bg-white">
-    {% include "./partials/navbar.html" %}
 
-    {{ content | safe }}
+    <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
+      {% include "./partials/navbar.html" %}
 
+      <div class="bg-sky-50 py-8 px-8">
+
+        {{ content | safe }}
+
+      </div>
+    </div>
+    
     {% include "./partials/footer.html" %}
 
     <script src="/static/js/alpine.js" defer></script>
