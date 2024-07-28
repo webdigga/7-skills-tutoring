@@ -18,7 +18,7 @@
 h1, h2, h3, p, a, strong {
   font-family: "Hammersmith One" !important;
   color: #334155 !important;
-  letter-spacing: 0;
+  letter-spacing: 0 !important;
 }
 
 h1 {
