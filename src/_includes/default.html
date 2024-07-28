@@ -97,6 +97,8 @@
       </script>
     {% endif %}
 
+    {% eleventyGoogleFonts 'https://fonts.googleapis.com/css?family=Hammersmith+One:wght@600&display=swap' %}
+
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
 
     {% if env.isProd %}
@@ -116,7 +118,7 @@
     {% endif %}
   </head>
 
-  <body class="bg-sky-50">
+  <body class="bg-color">
 
     <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
       {% include "./partials/navbar.html" %}

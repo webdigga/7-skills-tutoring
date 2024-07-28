@@ -17,6 +17,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^5.0.15",
     "dotenv": "^16.4.5",
+    "eleventy-google-fonts": "^0.1.0",
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
     "luxon": "^2.3.0",

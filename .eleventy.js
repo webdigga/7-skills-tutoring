@@ -1,6 +1,7 @@
 const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyGoogleFonts = require("eleventy-google-fonts");
 const htmlmin = require("html-minifier");
 const markdownIt = require("markdown-it");
 
@@ -69,6 +70,8 @@ module.exports = function (eleventyConfig) {
 
     return content;
   });
+
+  eleventyConfig.addPlugin(eleventyGoogleFonts);
 
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk

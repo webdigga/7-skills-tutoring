@@ -6,7 +6,7 @@ layout: default
 
     <div class="lg:pr-8 article-content">
         <div class="pb-5 mb-5 border-b border-gray-100 flex flex-col md:flex-row md:justify-between">
-            <h1 class="font-bold text-5xl text-left inline-block mb-5 md:mb-0">{{ title }}</h1>
+            <h1 class="text-5xl text-left inline-block mb-5 md:mb-0 tracking-normal">{{ title }}</h1>
         </div>
     
         <article class="prose my-4 max-w-none flex flex-col md:block">
@@ -23,7 +23,7 @@ layout: default
 
                         <div class="p-5 flex flex-col grow">
                             {% if highlightsBox.title %}
-                                <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 pb-2 border-b border-gray-200">{{ highlightsBox.title }}</h2>
+                                <h2 class="mb-2 text-2xl tracking-tight pb-2 border-b border-gray-200">{{ highlightsBox.title }}</h2>
                             {% endif %}
 
                             {% if highlightsBox.highlightsListItem[0] %}

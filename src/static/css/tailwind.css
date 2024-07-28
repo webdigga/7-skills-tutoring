@@ -3,12 +3,22 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
-
 :root {
   --primary-color: #0b336f;
   --primary-hover: #08224a;
   --affiliate-color: #FFD814;
   --affiliate-hover: #F7CA00;
+}
+
+.font-class {
+  font-family: "Hammersmith One";
+  color: #334155;
+}
+
+h1, h2, h3, p, a, strong {
+  font-family: "Hammersmith One" !important;
+  color: #334155 !important;
+  letter-spacing: 0;
 }
 
 h1 {
@@ -19,8 +29,11 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
-/* Syntax Highlighting*/
+.bg-color {
+  background: #e1f1fd;
+}
 
+/* Syntax Highlighting*/
 body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
