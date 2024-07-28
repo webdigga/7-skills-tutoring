@@ -37,59 +37,6 @@ collections:
         multiple: true
         create: true
         options: ["article", "privacy"]
-      - label: "Hero image"
-        name: "heroImage"
-        widget: "image"
-        choose_url: true
-        required: false
-        media_library:
-          config:
-            multiple: false
-      - { label: "In the media and accreditations copy", name: "inTheMediaAndAccreditationsCopy", widget: "string", required: false }
-      - label: "YouTube video path"
-        name: "youTubeVideos"
-        widget: "list"
-        fields:
-          - { label: "Video title", name: "videoTitle", widget: "string" }
-          - { label: "Embed path", name: "embedPath", widget: "string" }
-      - label: "Accreditation images"
-        name: "accreditationImages"
-        widget: "list"        
-        fields:
-          - label: Accreditation image
-            name: accreditationImage
-            widget: object
-            fields:
-              - { label: Image Alt, name: imageAlt, widget: string }
-              - { label: Image, name: image, widget: image }
-      - label: "Highlights box"
-        name: "highlightsBoxes"
-        widget: "list"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - label: Highlights list item
-            name: highlightsListItem
-            widget: list
-            fields:
-              - { label: Highlight, name: highlight, widget: string }
-  - label: "Hero"
-    name: "hero"
-    folder: "src/hero"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Button text", name: "buttonText", widget: "string" }
-      - { label: "Button URL", name: "buttonUrl", widget: "string" }
-      - label: "Image"
-        name: "image"
-        widget: "image"
-        choose_url: true
-        media_library:
-          config:
-            multiple: false
   - label: "Homepage spiel"
     name: "homepageSpiel"
     folder: "src/homepageSpiel"
