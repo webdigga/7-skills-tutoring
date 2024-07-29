@@ -83,3 +83,11 @@ collections:
             media_library:
               config:
                 multiple: false
+      - label: "Contact settings"
+        - { label: Weekday hours, name: weekDayHours, widget: string }
+        - { label: Saturday hours, name: saturdayHours, widget: string }
+        - { label: Sunday hours, name: sundayHours, widget: string }
+        - { label: Address one, name: addressOne, widget: string }
+        - { label: Address two, name: addressTwo, widget: string }
+        - { label: Email, name: email, widget: string }
+        - { label: Phone, name: phone, widget: string }

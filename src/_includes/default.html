@@ -97,6 +97,35 @@
       </script>
     {% endif %}
 
+    {% if type === 'contact' %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ env.site }}/contact"
+          },
+          "publisher": {
+            "@type": "LocalBusiness",
+            "@id": "{{ env.site }}",
+            "name": "{{ settings.title }}",
+            "logo": "android-chrome-512x512.png",
+            "telephone": "{{ contact.phone }}",
+            "email": "{{ contact.email }}",
+            "url": "{{ env.site }}",
+            "image": "android-chrome-512x512.png",
+            "description": "{{ settings.description }}",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "{{ contact.addressOne }}",
+              "addressRegion": "{{ contact.addressTwo }}",
+            }
+          }
+        }
+      </script>
+    {% endif %}
+
     {% eleventyGoogleFonts 'https://fonts.googleapis.com/css?family=Hammersmith+One:wght@600&display=swap' %}
 
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>

@@ -1,5 +1,6 @@
 ---
 layout: default
+type: contact
 ---
 
 <div class="container py-6 mx-auto flex flex-col justify-center items-center w-full">
@@ -21,23 +22,22 @@ layout: default
                 <div class="max-w-full mx-auto rounded-lg overflow-hidden">
                     <div class="px-6 py-4">
                         <h3 class="text-lg font-medium text-gray-900">My Address</h3>
-                        <p class="mt-1 text-gray-600">Kingston Upon Thames, London</p>
+                        <p class="mt-1 text-gray-600">{{ contact.addressOne }}, {{ contact.addressTwo }}</p>
                     </div>
                     <div class="border-t border-gray-200 px-6 py-4">
                         <h3 class="text-lg font-medium text-gray-900">Hours</h3>
-                        <p class="mt-1 text-gray-600">Monday - Friday: 9am - 5pm</p>
-                        <p class="mt-1 text-gray-600">Saturday: 10am - 4pm</p>
-                        <p class="mt-1 text-gray-600">Sunday: Closed</p>
+                        <p class="mt-1 text-gray-600">Monday - Friday: {{ contact.weekDayHours }}</p>
+                        <p class="mt-1 text-gray-600">Saturday: {{ contact.saturdayHours }}</p>
+                        <p class="mt-1 text-gray-600">Sunday: {{ contact.sundayHours }}</p>
                     </div>
                     <div class="border-t border-gray-200 px-6 py-4">
                         <h3 class="text-lg font-medium text-gray-900">Contact</h3>
-                        <p class="mt-1 text-gray-600">Email: email@email.com</p>
-                        <p class="mt-1 text-gray-600">Phone: +44 1234 123456</p>
+                        <p class="mt-1 text-gray-600">Email: {{ contact.email }}</p>
+                        <p class="mt-1 text-gray-600">Phone: {{ contact.phone }}</p>
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     </div>
   </section>
 </div>
