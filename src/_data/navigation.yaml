@@ -5,3 +5,5 @@ items:
     url: /about
   - text: Contact
     url: /contact
+  - text: Economics
+    url: /economics
