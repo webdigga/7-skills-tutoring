@@ -3,7 +3,7 @@ items:
     url: /
   - text: About
     url: /about
-  - text: Contact
-    url: /contact
   - text: Economics
     url: /economics
+  - text: Contact
+    url: /contact
