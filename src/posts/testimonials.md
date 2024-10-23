@@ -1,6 +1,6 @@
 ---
-title: About
-description: 1Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+title: Testimonials
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor.
   Vivamus id neque nisi.
 date: 2024-03-11T11:28:32.363Z
@@ -9,7 +9,7 @@ tags:
   - article
 heroImage: /static/img/about-michael-hero.webp
 ---
-1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi. Michael.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi. Michael.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi:
 

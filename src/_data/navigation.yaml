@@ -1,9 +1,30 @@
-items:
+firstLevelItems:
   - text: Home
     url: /
   - text: About
-    url: /about
-  - text: Economics
-    url: /economics
+    url: /about/
+    secondLevelItems:
+      - text: Profile
+        url: /profile/
+      - text: Testimonials
+        url: /testimonials/
+      - text: Success Stories
+        url: /success-stories/
+  - text: Services
+    url: /services/
+    secondLevelItems:
+      - text: Business
+        url: /business/
+      - text: Economics
+        url: /economics/
+  - text: Resources
+    url: /resources/
+    secondLevelItems:
+      - text: Resources 1
+        url: /resources-one/
+      - text: Resources 2
+        url: /resources-two/
+      - text: Resources 3
+        url: /resources-three/
   - text: Contact
-    url: /contact
+    url: /contact/

@@ -1,19 +1,8 @@
 ---
-title: 1Lorem ipsum dolor sit amet, consectetur adipiscing elit
+title: Personalised Business and Economics Tutoring for Academic Success
 description: >-
-  1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum
-  sollicitudin turpis ut venenatis. Sed posuere libero ut libero semper semper.
-  Donec congue varius vulputate. Nulla malesuada pellentesque ultricies.
-  Curabitur vitae nisi risus. Pellentesque habitant morbi tristique senectus et
-  netus et malesuada fames ac turpis egestas. In aliquam massa ornare arcu porta
-  sagittis. Aenean bibendum nunc dui, nec maximus arcu vestibulum sed.
+  Hi, I’m Michael Carragher, a personal tutor specialising in business and economics. I’m passionate about helping students reach their full potential by providing tailored lessons that make complex concepts easier to understand. Whether you’re aiming to improve your grades or gain a deeper understanding of the subject, I’m here to guide you every step of the way.
 
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum sollicitudin turpis ut venenatis. Sed posuere libero ut libero semper semper.
-
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum sollicitudin turpis ut venenatis. Sed posuere libero ut libero semper semper. Donec congue varius vulputate. Nulla malesuada pellentesque ultricies. Curabitur vitae nisi risus.
-
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum sollicitudin turpis ut venenatis. Sed posuere libero ut libero semper semper. Donec congue varius vulputate.
+  With a background in both teaching and real-world business experience, I focus on making lessons engaging and relevant to your academic and career goals. I believe that everyone learns differently, so I customise my approach to suit your needs, whether you're preparing for exams, working on assignments, or simply looking to improve your overall understanding of business and economics.
 ---

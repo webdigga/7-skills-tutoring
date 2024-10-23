@@ -71,6 +71,7 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
+          - { label: Company Number, name: companyNumber, widget: string }
           - { label: Powered by, name: poweredBy, widget: string }
           - { label: Powered by link, name: poweredByUrl, widget: string }
           - { label: Description, name: description, widget: string }

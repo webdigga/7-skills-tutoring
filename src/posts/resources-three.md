@@ -1,5 +1,5 @@
 ---
-title: Economics
+title: Resources Three
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor.
   Vivamus id neque nisi.
