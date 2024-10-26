@@ -10,8 +10,13 @@
 
 body {
   font-family: "Hammersmith One", sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
+  color: var(--dark);
+}
+
+h1, h2, h3, h4, h5, .hammersmith-font {
+  font-weight: 400;
   color: var(--dark);
 }
 
@@ -29,6 +34,33 @@ h3 {
 
 .bg-color {
   background: var(--light-blue);
+}
+
+/*
+  Article image component
+*/
+img.Centre {
+  @apply mx-auto;
+}
+
+img.Left {
+  @apply m-0 md:float-left md:pr-12 md:pb-8 md:max-w-[50%];
+}
+
+img.Right {
+  @apply m-0 md:float-right md:pl-12 md:pb-8 md:max-w-[50%];
+}
+
+.youtube-embed {
+  @apply flex flex-col items-center mt-7
+}
+
+.youtube-embed.Left {
+  @apply m-0 lg:float-left lg:pr-12 lg:pb-8 mt-0;
+}
+
+.youtube-embed.Right {
+  @apply m-0 lg:float-right lg:pl-12 lg:pb-8 mt-0;
 }
 
 /* Syntax Highlighting*/

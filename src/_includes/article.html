@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
+
+  <div class="bg-white py-8 px-8">
+
+    <div class="container 2xl:max-w-6xl mt-6 flex flex-col lg:flex-row">
+
+      <div class="article-content">
+        <div class="md:pb-5 mb-5 border-b border-gray-200 flex flex-col md:flex-row md:justify-between">
+          <h1 class="text-5xl text-left inline-block mb-5 md:mb-0 tracking-normal">{{ title }}</h1>
+        </div>
+    
+        <article class="prose my-4 max-w-none flex flex-col md:block">
+    
+            {{ content | safe }}
+
+        </article>
+  
+      </div>
+    </div>
+
+  </div>
+</div>

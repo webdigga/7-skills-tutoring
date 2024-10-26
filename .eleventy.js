@@ -40,7 +40,10 @@ module.exports = function (eleventyConfig) {
 
   // Copy Static Files to /_Site
   eleventyConfig.addPassthroughCopy({
-    "./src/admin/config.yml": "./admin/config.yml"
+    "./src/admin/config.yml": "./admin/config.yml",
+    "./src/admin/imageComponent.js": "./admin/imageComponent.js",
+    "./src/admin/buttonComponent.js": "./admin/buttonComponent.js",
+    "./src/admin/videoComponent.js": "./admin/videoComponent.js"
   });
 
   // Copy Image Folder to /_site

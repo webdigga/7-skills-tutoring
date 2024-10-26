@@ -13,10 +13,12 @@ firstLevelItems:
   - text: Services
     url: /services/
     secondLevelItems:
-      - text: Business
-        url: /business/
       - text: Economics
-        url: /economics/
+        url: /personalised-economics-tutoring/
+      - text: Exam Workshops
+        url: /exam-workshops/
+      - text: School Support
+        url: /school-support/
   - text: Resources
     url: /resources/
     secondLevelItems:
