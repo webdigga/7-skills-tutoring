@@ -151,57 +151,27 @@
     {% endif %}
   </head>
 
-  <body class="bg-color">
+  <body class="bg-color {{ "prod" if env.isProd }}">
 
-    <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
-      {% include "./partials/navbar.html" %}
-
-      <div class="bg-white py-8 px-8">
-
-        {{ content | safe }}
-
-      </div>
-    </div>
+    {{ content | safe }}
     
     {% include "./partials/footer.html" %}
 
-    <script src="/static/js/alpine.js" defer></script>
-
     {% if env.isProd %}
-
       {% include "./partials/cookie-consent.html" %}
-
-      <script>
-        const grantConsentButton = document.getElementById('grant-consent');
-
-        grantConsentButton.addEventListener("click", function() {
-          localStorage.setItem("consentGranted", "true");
-
-          loadGtagScript();
-        });
-
-        if(localStorage.getItem("consentGranted")) {
-          loadGtagScript();
-        }
-
-        function loadGtagScript() {
-          function gtag() { dataLayer.push(arguments); }
-
-          gtag('consent', 'update', {
-            ad_user_data: 'granted',
-            ad_personalization: 'granted',
-            ad_storage: 'granted',
-            analytics_storage: 'granted'
-          });
-
-          var gtagScript = document.createElement('script');
-          gtagScript.defer = true;
-          gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=INSERTTAGIDHERE';
-
-          var firstScript = document.getElementsByTagName('script')[0];
-          firstScript.parentNode.insertBefore(gtagScript,firstScript);
-        }
-      </script>
     {% endif %}
+
+    {% set cookieConsent %}
+      {% include "static/js/cookieConsent/cookieConsent.js" %}
+    {% endset %}
+
+    {% set menuToggle %}
+      {% include "static/js/menuToggle/menuToggle.js" %}
+    {% endset %}
+
+    <script type="module">
+      {{ cookieConsent | jsmin | safe }}
+      {{ menuToggle | jsmin | safe }}
+    </script>
   </body>
 </html>

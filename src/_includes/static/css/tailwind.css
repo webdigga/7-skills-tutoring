@@ -4,17 +4,15 @@
 
 /*Your Custom CSS Goes here*/
 :root {
-  --primary-color: #0b336f;
-  --primary-hover: #08224a;
-  --affiliate-color: #FFD814;
-  --affiliate-hover: #F7CA00;
+  --dark: #334155;
+  --light-blue: #e1f1fd;
 }
 
 body {
   font-family: "Hammersmith One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #334155;
+  color: var(--dark);
 }
 
 h1 {
@@ -25,8 +23,12 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+.menu-styles {
+  @apply absolute left-0 border-b border-b-white pb-6 shadow-[rgba(0,0,0,0.1)_0px_5px_0px_0px] top-[132px] xs:top-[100px];
+}
+
 .bg-color {
-  background: #e1f1fd;
+  background: var(--light-blue);
 }
 
 /* Syntax Highlighting*/

@@ -9,6 +9,9 @@ module.exports = {
     },
     extend: {
       colors: {},
+      screens: {
+        'xs': '440px'
+      },
     },
   },
   variants: {},

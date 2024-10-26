@@ -40,13 +40,11 @@ module.exports = function (eleventyConfig) {
 
   // Copy Static Files to /_Site
   eleventyConfig.addPassthroughCopy({
-    "./src/admin/config.yml": "./admin/config.yml",
-    "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js",
-    "./node_modules/prismjs/themes/prism-tomorrow.css": "./static/css/prism-tomorrow.css",
+    "./src/admin/config.yml": "./admin/config.yml"
   });
 
   // Copy Image Folder to /_site
-  eleventyConfig.addPassthroughCopy("./src/static/img");
+  eleventyConfig.addPassthroughCopy("./src/_includes/static/img");
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
@@ -69,6 +67,18 @@ module.exports = function (eleventyConfig) {
     }
 
     return content;
+  });
+
+  const { minify } = require("terser");
+  eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (code, callback) {
+    try {
+      const minified = await minify(code);
+      callback(null, minified.code);
+    } catch (err) {
+      console.error("Terser error: ", err);
+      // Fail gracefully.
+      callback(null, code);
+    }
   });
 
   // Let Eleventy transform HTML files as nunjucks
