@@ -1,3 +1,5 @@
+{% import "./partials/json-ld.html" as jsonLd with context %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,114 +19,23 @@
 
     <meta name="google-site-verification" content="INSERTVERIFICATIONIDHERE" />
 
-    <title>
-      {% if title %}
-        {{ title }}
-      {% else %}
-        {{ settings.title }}
-      {% endif %}
-    </title>
+    <title>{{ seoTitle | safe }}</title>
+    
+    <meta name="description" content="{{ description | safe }}"/>
 
-    <!-- If we're an article page -->
-    {% if description %}
-      <meta name="description" content="{{ description }}"/>
-      <meta name="og:description" property="og:description" content="{{ description }}">
-      <meta name="twitter:description" content="{{ description }}">
-    {% else %}
-      <meta name="description" content="{{ settings.description }}"/>
-      <meta name="og:description" property="og:description" content="{{ settings.description }}">
-      <meta name="twitter:description" content="{{ settings.description }}">
-    {% endif %}
-
-    <!-- If we're an article page -->
-    {% if title %}
-      <meta name="og:title" property="og:title" content="{{ title }}">
-      <meta name="twitter:title" content="{{ title }}">
-    {% else %}
-      <meta name="og:title" property="og:title" content="{{ settings.title }}">
-      <meta name="twitter:title" content="{{ settings.title }}">
-    {% endif %}
-
-    <!-- If we're an article page -->
-    {% if type %}
-      <meta name="og:type" property="og:type" content="{{ type }}">
-    {% else %}
-      <meta name="og:type" property="og:type" content="{{ settings.type }}">
-    {% endif %}
-
-    <meta name="og:site_name" property="og:site_name" content="{{ settings.title }}">
-    <meta name="twitter:site" content="{{ settings.title }}">
+    <meta name="og:description" property="og:description" content="{{ description | safe }}">
+    <meta name="og:site_name" property="og:site_name" content="{{ settings.siteName | safe }}">
+    <meta name="og:title" property="og:title" content="{{ seoTitle | safe }}">
+    <meta name="og:type" property="og:type" content="{{ ogType | safe }}">
     <meta name="og:locale" property="og:locale" content="en_GB">
+    
+    <meta name="twitter:site" content="@webdigga">
+    <meta name="twitter:title" content="{{ seoTitle | safe }}">
+    <meta name="twitter:description" content="{{ description | safe }}">
 
-    {% if title %}
-      <link rel="canonical" href="{{ env.site }}/{{ title | slugify }}/" />
-    {% endif %}
+    <link rel="canonical" href="{{ canonical }}" />
 
-    {% if type === 'home' %}
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "{{ settings.title }}",
-          "description": "{{ settings.description }}",
-          "image": "android-chrome-512x512.png",
-          "url": "{{ env.site }}"
-        }
-      </script>
-    {% endif %}
-
-    {% if type === 'article' %}
-      <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Article",
-          "headline": "{{ title }}",
-          "datePublished": "{{ date }}",
-          "url": "{{ env.site }}/{{ title | slugify }}/",
-          "description": "{{ description }}",
-          "image": "android-chrome-512x512.png",
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "{{ settings.title }}",
-            "url": "{{ env.site }}",
-            "publisher": {
-              "@type": "Organization",
-              "name": "{{ settings.title }}",
-              "url": "{{ env.site }}"
-            }
-          }
-        }
-      </script>
-    {% endif %}
-
-    {% if type === 'contact' %}
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "ContactPage",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ env.site }}/contact"
-          },
-          "publisher": {
-            "@type": "LocalBusiness",
-            "@id": "{{ env.site }}",
-            "name": "{{ settings.title }}",
-            "logo": "android-chrome-512x512.png",
-            "telephone": "{{ contact.phone }}",
-            "email": "{{ contact.email }}",
-            "url": "{{ env.site }}",
-            "image": "android-chrome-512x512.png",
-            "description": "{{ settings.description }}",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "{{ contact.addressOne }}",
-              "addressRegion": "{{ contact.addressTwo }}",
-            }
-          }
-        }
-      </script>
-    {% endif %}
+    {{ jsonLd.schema() }}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

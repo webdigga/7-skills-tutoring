@@ -1,5 +1,9 @@
 ---
 layout: default
+ogType: article
+seoSchemaPageType: Article
+eleventyComputed:
+  canonical: "{{ env.site }}/{{ title | slugify }}/"
 ---
 
 <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">

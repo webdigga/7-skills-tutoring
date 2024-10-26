@@ -1,6 +1,12 @@
 ---
 layout: default
 type: contact
+ogType: website
+seoSchemaPageType: ContactPage
+eleventyComputed:
+  description: "{{ contactPageSeo.description }}"
+  seoTitle: "{{ contactPageSeo.seoTitle }}"
+  canonical: "{{ env.site }}/contact/"
 ---
 
 <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
@@ -12,7 +18,7 @@ type: contact
             <div class="md:pb-5 mb-5 border-b border-gray-300 flex flex-col md:flex-row md:justify-between">
               <h1 class="text-5xl text-left inline-block mb-5 md:mb-0 tracking-normal">Contact Michael Carragher</h1>
             </div>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4">
               Have a question or ready to get started? I'd love to hear from you! Whether you're looking for more information about my tutoring services or want to discuss how I can help you achieve your academic goals, feel free to get in touch directly using the contact details below. I look forward to connecting with you!
             </p>
         </div>
