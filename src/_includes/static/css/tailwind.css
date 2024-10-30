@@ -9,13 +9,14 @@
 }
 
 body {
-  font-family: "Hammersmith One", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-style: normal;
   color: var(--dark);
 }
 
 h1, h2, h3, h4, h5, .hammersmith-font {
+  font-family: "Hammersmith One", sans-serif;
   font-weight: 400;
   color: var(--dark);
 }

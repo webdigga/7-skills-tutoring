@@ -1,6 +1,6 @@
 {% import "../components/logo.html" as owlLogo with context %}
 
-<footer class="w-full mt-8">
+<footer class="w-full mt-8 hammersmith-font">
   <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
       
     <div class="px-6 lg:px-0 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 py-10 gap-y-8 sm:justify-items-center lg:justify-items-start">
@@ -22,30 +22,26 @@
           </p>
         {% endif %}
 
-        <p class="py-1 text-center lg:text-left">
-          <small class="subtle-text-on-light-background">        
-            Kingston Upon Thames
-          </small>
-        </p>
-        
-        {% if settings.companyNumber %}
+        {% if settings.townCity %}
           <p class="py-1 text-center lg:text-left">
-            <small class="subtle-text-on-light-background">Company number: {{ settings.companyNumber }}</small>
-          </p>
-        {% endif %}
-
-        {% if contact.email %}
-          <p class="py-1 text-center lg:text-left">
-            <small class="subtle-text-on-light-background">
-              <a href="mailto:{{ contact.email }}" class="py-2 break-all">Email me @ {{ contact.email }}</a>
+            <small class="subtle-text-on-light-background">        
+              {{ settings.townCity | safe }}
             </small>
           </p>
         {% endif %}
 
-        {% if contact.phone %}
+        {% if settings.email %}
+          <p class="py-1 text-center lg:text-left">
+            <small class="subtle-text-on-light-background">
+              <a href="mailto:{{ settings.email }}" class="py-2 break-all">Email me @ {{ settings.email }}</a>
+            </small>
+          </p>
+          {% endif %}
+
+        {% if settings.phone %}
           <p class="py-1 mb-2 text-center lg:text-left">
             <small class="subtle-text-on-light-background">        
-              <a href="tel:{{ contact.phone }}" class="py-2">Call me on {{ contact.phone }}</a>
+              <a href="tel:{{ settings.phone }}" class="py-2">Call me on {{ settings.phone }}</a>
             </small>
           </p>
         {% endif %}

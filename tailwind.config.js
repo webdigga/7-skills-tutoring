@@ -39,6 +39,9 @@ module.exports = {
               color: 'var(--dark)',
               fontWeight: '100',
               fontStyle: 'normal'
+            },
+            strong: {
+              color: 'var(--dark)'
             }
           },
         },

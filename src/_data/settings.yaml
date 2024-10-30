@@ -7,4 +7,16 @@ poweredByUrl: https://kabooly.com/
 type: website
 logoAlt: Seven Skills Tutoring Owl logo
 logoUrl: /_includes/static/img/logo.png
-companyNumber: 123456789
+email: email@email.com
+phone: "07311 391185"
+addressLineOne: Carisbrooke House
+addressLineTwo: Royal Quarter
+addressLineThree: Seven Kings Way
+townCity: Kingston upon Thames
+country: GB
+region: London
+postCode: KT2 5BS
+openingWeekday: "09:00"
+closingWeekday: "20:00"
+openingSaturday: "09:00"
+closingSaturday: "14:00"

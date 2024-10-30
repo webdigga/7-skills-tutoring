@@ -2,124 +2,249 @@
 
   <script type="application/ld+json">
 
-  {% if seoSchemaPageType == 'Organization' %}
+    {% if seoSchemaPageType == 'Organization' %}
 
-    {# Organisation JSON ld #}
-      
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
-      "image": "{{ env.site }}/android-chrome-512x512.png",
-      "url": "{{ env.site }}",
-      "logo": "{{ env.site }}/android-chrome-512x512.png",
-      "name": "{{ settings.siteName }}",
-      "description": "{{ description }}",
-      "email": "{{ contact.email }}",
-      "telephone": "{{ contact.phone }}"
-    }
-
-  {% elseif seoSchemaPageType == 'ContactPage' %}
-
-    {# ContactPage JSON ld #}
-
-    {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ env.site }}/contact/"
-      },
-      "publisher": {
+      {# Organisation JSON ld #}
+        
+      {
+        "@context": "https://schema.org",
         "@type": "EducationalOrganization",
-        "@id": "{{ env.site }}",
-        "name": "{{ settings.siteName }}",
-        "logo": "{{ env.site }}/android-chrome-512x512.png",
-        "telephone": "{{ contact.phone }}",
-        "email": "{{ contact.email }}",
-        "url": "{{ env.site }}",
         "image": "{{ env.site }}/android-chrome-512x512.png",
-        "description": "{{ description }}"
+        "url": "{{ env.site }}",
+        "logo": "{{ env.site }}/android-chrome-512x512.png",
+        "name": "{{ settings.siteName }}",
+        "description": "{{ description }}",
+        "email": "{{ settings.email }}",
+        "telephone": "{{ settings.phone }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{ settings.addressLineOne | safe }} {{ settings.addressLineTwo | safe }} {{ settings.addressLineThree | safe }}",
+          "addressLocality": "{{ settings.townCity | safe }}",
+          "addressCountry": "{{ settings.country | safe }}",
+          "addressRegion": "{{ settings.region | safe }}",
+          "postalCode": "{{ settings.postCode | safe }}"
+        },
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "{{ settings.openingWeekday | safe }}",
+          "closes": "{{ settings.closingWeekday | safe }}"
+        },{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "{{ settings.openingSaturday | safe }}",
+          "closes": "{{ settings.closingSaturday | safe }}"
+        }]
       }
-    }
 
-  {% elseif seoSchemaPageType == 'FAQPage' %}
+    {% elseif seoSchemaPageType == 'ContactPage' %}
 
-    {# FAQPage JSON ld #}
+      {# ContactPage JSON ld #}
 
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{% if faqsData.faqs %}{% for faqsDataItem in faqsData.faqs %}
-        {
-          "@type": "Question",
-          "name": "{{ faqsDataItem.question | safe }}",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "<p>{{ faqsDataItem.answer | safe }}</p>"
-          }
-        }{{ "" if loop.last else "," }}{% endfor %}{% endif %}
-      ],
-      "publisher": {
-        "@type": "EducationalOrganization",
-        "@id": "{{ env.site }}",
-        "name": "{{ settings.siteName }}",
-        "logo": "{{ env.site }}/android-chrome-512x512.png",
-        "telephone": "{{ contact.phone }}",
-        "email": "{{ contact.email }}",
-        "url": "{{ env.site }}",
-        "image": "{{ env.site }}/android-chrome-512x512.png",
-        "description": "{{ description }}"
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{ env.site }}/contact/"
+        },
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "@id": "{{ env.site }}",
+          "name": "{{ settings.siteName }}",
+          "logo": "{{ env.site }}/android-chrome-512x512.png",
+          "telephone": "{{ settings.phone }}",
+          "email": "{{ settings.email }}",
+          "url": "{{ env.site }}",
+          "image": "{{ env.site }}/android-chrome-512x512.png",
+          "description": "{{ description }}",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ settings.addressLineOne | safe }} {{ settings.addressLineTwo | safe }} {{ settings.addressLineThree | safe }}",
+            "addressLocality": "{{ settings.townCity | safe }}",
+            "addressCountry": "{{ settings.country | safe }}",
+            "addressRegion": "{{ settings.region | safe }}",
+            "postalCode": "{{ settings.postCode | safe }}"
+          },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "{{ settings.openingWeekday | safe }}",
+            "closes": "{{ settings.closingWeekday | safe }}"
+          },{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "{{ settings.openingSaturday | safe }}",
+            "closes": "{{ settings.closingSaturday | safe }}"
+          }]
+        }
       }
-    }
 
-  {% elseif seoSchemaPageType == 'Article' %}
+    {% elseif seoSchemaPageType == 'FAQPage' %}
 
-    {# Article JSON ld #}
+      {# FAQPage JSON ld #}
 
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "{{ title | safe}}",
-      "image": "{{ env.site }}/android-chrome-512x512.png",  
-      "publisher": {
-        "@type": "EducationalOrganization",
-        "@id": "{{ env.site }}",
-        "name": "{{ settings.siteName }}",
-        "logo": "{{ env.site }}/android-chrome-512x512.png",
-        "telephone": "{{ contact.phone }}",
-        "email": "{{ contact.email }}",
-        "url": "{{ env.site }}",
-        "image": "{{ env.site }}/android-chrome-512x512.png",
-        "description": "{{ description }}"
-      },
-      "datePublished": "{{ date | iso8601 | safe }}"
-    }
-
-  {% else %}
-
-    {# WebSite JSON ld #}
-
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "{{ seoTitle }}",
-      "description": "{{ description }}",
-      "image": "{{ env.site }}/android-chrome-512x512.png",
-      "url": "{{ env.site }}",
-      "publisher": {
-        "@type": "EducationalOrganization",
-        "@id": "{{ env.site }}",
-        "name": "{{ settings.siteName }}",
-        "logo": "{{ env.site }}/android-chrome-512x512.png",
-        "telephone": "{{ contact.phone }}",
-        "email": "{{ contact.email }}",
-        "url": "{{ env.site }}",
-        "image": "{{ env.site }}/android-chrome-512x512.png",
-        "description": "{{ description }}"
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{% if faqsData.faqs %}{% for faqsDataItem in faqsData.faqs %}
+          {
+            "@type": "Question",
+            "name": "{{ faqsDataItem.question | safe }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "<p>{{ faqsDataItem.answer | safe }}</p>"
+            }
+          }{{ "" if loop.last else "," }}{% endfor %}{% endif %}
+        ],
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "@id": "{{ env.site }}",
+          "name": "{{ settings.siteName }}",
+          "logo": "{{ env.site }}/android-chrome-512x512.png",
+          "telephone": "{{ settings.phone }}",
+          "email": "{{ settings.email }}",
+          "url": "{{ env.site }}",
+          "image": "{{ env.site }}/android-chrome-512x512.png",
+          "description": "{{ description }}",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ settings.addressLineOne | safe }} {{ settings.addressLineTwo | safe }} {{ settings.addressLineThree | safe }}",
+            "addressLocality": "{{ settings.townCity | safe }}",
+            "addressCountry": "{{ settings.country | safe }}",
+            "addressRegion": "{{ settings.region | safe }}",
+            "postalCode": "{{ settings.postCode | safe }}"
+          },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "{{ settings.openingWeekday | safe }}",
+            "closes": "{{ settings.closingWeekday | safe }}"
+          },{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "{{ settings.openingSaturday | safe }}",
+            "closes": "{{ settings.closingSaturday | safe }}"
+          }]
+        }
       }
-    }
 
-  {% endif %}
+    {% elseif seoSchemaPageType == 'Article' %}
+
+      {# Article JSON ld #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "{{ title | safe}}",
+        "image": "{{ env.site }}/android-chrome-512x512.png",  
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "@id": "{{ env.site }}",
+          "name": "{{ settings.siteName }}",
+          "logo": "{{ env.site }}/android-chrome-512x512.png",
+          "telephone": "{{ settings.phone }}",
+          "email": "{{ settings.email }}",
+          "url": "{{ env.site }}",
+          "image": "{{ env.site }}/android-chrome-512x512.png",
+          "description": "{{ description }}",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ settings.addressLineOne | safe }} {{ settings.addressLineTwo | safe }} {{ settings.addressLineThree | safe }}",
+            "addressLocality": "{{ settings.townCity | safe }}",
+            "addressCountry": "{{ settings.country | safe }}",
+            "addressRegion": "{{ settings.region | safe }}",
+            "postalCode": "{{ settings.postCode | safe }}"
+          },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "{{ settings.openingWeekday | safe }}",
+            "closes": "{{ settings.closingWeekday | safe }}"
+          },{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "{{ settings.openingSaturday | safe }}",
+            "closes": "{{ settings.closingSaturday | safe }}"
+          }]
+        },
+        "datePublished": "{{ date | iso8601 | safe }}"
+      }
+
+    {% else %}
+
+      {# WebSite JSON ld #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ seoTitle }}",
+        "description": "{{ description }}",
+        "image": "{{ env.site }}/android-chrome-512x512.png",
+        "url": "{{ env.site }}",
+        "publisher": {
+          "@type": "EducationalOrganization",
+          "@id": "{{ env.site }}",
+          "name": "{{ settings.siteName }}",
+          "logo": "{{ env.site }}/android-chrome-512x512.png",
+          "telephone": "{{ settings.phone }}",
+          "email": "{{ settings.email }}",
+          "url": "{{ env.site }}",
+          "image": "{{ env.site }}/android-chrome-512x512.png",
+          "description": "{{ description }}",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ settings.addressLineOne | safe }} {{ settings.addressLineTwo | safe }} {{ settings.addressLineThree | safe }}",
+            "addressLocality": "{{ settings.townCity | safe }}",
+            "addressCountry": "{{ settings.country | safe }}",
+            "addressRegion": "{{ settings.region | safe }}",
+            "postalCode": "{{ settings.postCode | safe }}"
+          },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "{{ settings.openingWeekday | safe }}",
+            "closes": "{{ settings.closingWeekday | safe }}"
+          },{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "{{ settings.openingSaturday | safe }}",
+            "closes": "{{ settings.closingSaturday | safe }}"
+          }]
+        }
+      }
+
+    {% endif %}
 
   </script>
 

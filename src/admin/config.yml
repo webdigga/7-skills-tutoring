@@ -138,11 +138,23 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
-          - { label: Company Number, name: companyNumber, widget: string }
           - { label: Powered by, name: poweredBy, widget: string }
           - { label: Powered by link, name: poweredByUrl, widget: string }
           - { label: Type (type of template), name: type, widget: string }
           - { label: Logo (Alt), name: logoAlt, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Phone, name: phone, widget: string }
+          - { label: Address Line One, name: addressLineOne, widget: string }
+          - { label: Address Line Two, name: addressLineTwo, widget: string }
+          - { label: Address Line Three, name: addressLineThree, widget: string }
+          - { label: Town/City, name: townCity, widget: string }
+          - { label: Country, name: country, widget: string }
+          - { label: Region, name: region, widget: string }
+          - { label: Post Code, name: postCode, widget: string }
+          - { label: Opening Weekday, name: openingWeekday, widget: string }
+          - { label: Closing Weekday, name: closingWeekday, widget: string }
+          - { label: Opening Saturday, name: openingSaturday, widget: string }
+          - { label: Closing Saturday, name: closingSaturday, widget: string }
           - label: "Logo (URL)"
             name: "logoUrl"
             widget: "image"
@@ -150,11 +162,3 @@ collections:
             media_library:
               config:
                 multiple: false
-      - label: "Contact settings"
-        name: "contact"
-        file: "src/_data/contact.yaml"
-        fields:
-          - { label: Address one, name: addressOne, widget: string }
-          - { label: Address two, name: addressTwo, widget: string }
-          - { label: Email, name: email, widget: string }
-          - { label: Phone, name: phone, widget: string }

@@ -33,18 +33,20 @@ eleventyComputed:
                     <div class="max-w-full mx-auto rounded-lg overflow-hidden">
                         <div class="px-6 py-4">
                             <h3 class="text-lg font-medium text-gray-900">My Address</h3>
-                            <p class="mt-1 text-gray-600">{{ contact.addressOne }}, {{ contact.addressTwo }}</p>
+                            <p class="mt-1 text-gray-600">{{ settings.addressLineOne }}, {{ settings.addressLineTwo }}, {{ settings.addressLineThree }},</p>
+                            <p class="mt-1 text-gray-600">{{ settings.townCity }}, {{ settings.region }}</p>
                         </div>
-                        <div class="border-t border-gray-200 px-6 py-4">
-                            <h3 class="text-lg font-medium text-gray-900">Hours</h3>
-                            <p class="mt-1 text-gray-600">Monday - Friday: {{ contact.weekDayHours }}</p>
-                            <p class="mt-1 text-gray-600">Saturday: {{ contact.saturdayHours }}</p>
-                            <p class="mt-1 text-gray-600">Sunday: {{ contact.sundayHours }}</p>
+                        <div class="border-t border-gray-200 px-6 py-4 grid grid-cols-2 gap-2">
+                            <h3 class="text-lg font-medium text-gray-900 col-span-2">Tutoring times</h3>
+                            <p class="text-gray-600">Monday - Friday: </p>
+                            <span class="font-bold">{{ settings.openingWeekday }} - {{ settings.closingWeekday }}</span>
+                            <p class="text-gray-600">Saturday: </p>
+                            <span class="font-bold">{{ settings.openingSaturday }} - {{ settings.closingSaturday }}</span>
                         </div>
                         <div class="border-t border-gray-200 px-6 py-4">
                             <h3 class="text-lg font-medium text-gray-900">Contact</h3>
-                            <p class="mt-1 text-gray-600">Email: {{ contact.email }}</p>
-                            <p class="mt-1 text-gray-600">Phone: {{ contact.phone }}</p>
+                            <p class="mt-1 text-gray-600">Email: {{ settings.email }}</p>
+                            <p class="mt-1 text-gray-600">Phone: {{ settings.phone }}</p>
                         </div>
                     </div>
                 </div>
