@@ -17,22 +17,22 @@ module.exports = {
           css: {
             h2: {
               color: 'var(--dark)',
-              fontWeight: '400',
+              fontWeight: '100',
               fontStyle: 'normal'
             },
             h3: {
               color: 'var(--dark)',
-              fontWeight: '400',
+              fontWeight: '100',
               fontStyle: 'normal'
             },
             h4: {
               color: 'var(--dark)',
-              fontWeight: '400',
+              fontWeight: '100',
               fontStyle: 'normal'
             },
             h5: {
               color: 'var(--dark)',
-              fontWeight: '400',
+              fontWeight: '100',
               fontStyle: 'normal'
             },
             p: {

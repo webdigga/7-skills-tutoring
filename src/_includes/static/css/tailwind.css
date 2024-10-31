@@ -6,6 +6,9 @@
 :root {
   --dark: #334155;
   --light-blue: #e1f1fd;
+  --lightest-gray: #f9fafb;
+  --very-light-gray: #dcdcdc;
+  --light-gray: #9CA3AF;
 }
 
 body {
@@ -17,16 +20,20 @@ body {
 
 h1, h2, h3, h4, h5, .hammersmith-font {
   font-family: "Hammersmith One", sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   color: var(--dark);
 }
 
 h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+  @apply text-3xl sm:text-4xl lg:text-5xl mb-5;
 }
 
-h3 {
-  @apply text-2xl font-bold mb-3;
+h2 {
+  @apply text-2xl sm:text-3xl lg:text-4xl mb-4;
+}
+
+h3, h4 {
+  @apply text-xl sm:text-2xl lg:text-3xl mb-4;
 }
 
 .menu-styles {
