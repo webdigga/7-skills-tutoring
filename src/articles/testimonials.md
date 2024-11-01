@@ -1,40 +1,60 @@
 ---
-title: Testimonials
-seoTitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor.
-  Vivamus id neque nisi.
-date: 2024-03-11T11:28:32.363Z
+title: Testimonials for Michael Carragher
+seoTitle: Testimonials for Michael Carragher | Seven Skills Tutoring
+description: See how Michael Carragher’s business and economics tutoring has
+  helped students excel. Read real testimonials from satisfied clients.
+author: David White
+date: 2024-11-01T15:33:00.000Z
 type: article
 tags:
   - article
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi. Michael.
+I've guided numerous students, helping them build confidence and reach their academic goals. Here, clients share their experiences and successes, offering insights into the impact of my personalised tutoring approach.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi:
+---
 
-## **Lorem ipsum dolor sit amet**
+### "*Highly recommend him*"
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+> Michael was very patient with our daughter and helped her improve and consolidate her knowledge for her A level Business exams. She achieved the grade needed at A level to go to her first-choice university and Michael was key in helping her do that. He is very generous with his time and we would highly recommend him
 
-## **Lorem ipsum dolor**
+~ **Nicole** 2024
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+---
 
-## **Lorem ipsum**
+### *"Very happy days"*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+> Morning Michael! My son wants you to know he got an A in Economics. He is in shock but very grateful for all your guidance which kept him going. Very happy days
 
-## **Lorem ipsum dolor sit amet**
+*~* **Deirdre** 2024
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+---
 
-## **Lorem ipsum dolor sit**
+### "*Definitely recommended*"
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+> Very helpful and dedicated to helping his student with a crash course before A level Economics exams. With his years of experience as a teacher and examiner, Michael understands students and has much to share and does so for the student's benefit. Michael also was great at communicating with us parents. Definitely recommended
 
-## **Lorem**
+~ **Bernadette** 2023
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+### "*I recommend him without hesitation*"
+
+> Michael is a fantastic tutor. He is very knowledgeable and conscientious and has a deep understanding of economics for A-level exams. I also appreciate that he provided ongoing updates on our son’s progress and was not shy about pushing and encouraging our son to do his very best. I recommend him without hesitation
+
+~ **Jessica** 2023
+
+---
+
+### "*I thoroughly recommend Michael as a tutor*"
+
+> Michael is an excellent tutor. He is thorough and very knowledgeable of specific exam board specifications and provides excellent support and tuition for A-level Economics. I thoroughly recommend Michael as a tutor
+
+~ **Karen** 2022
+
+---
+
+### *"Highly recommended"*
+
+> Superb tutor. Michael is a genuinely dedicated, absolutely solid and knowledgeable tutor with infinite patience and commitment. He goes the extra mile to ensure the student is confident and well versed in the relevant subject. He is helping my son with university level Economics and Accounting. Highly recommended
+
+~ **Margaret** 2021

@@ -9,46 +9,29 @@ type: article
 tags:
   - article
 ---
-Tutoring is tailored to what each student needs, not least the skills’ areas where they really do need help to raise their final grade.
+My tutoring is tailored to the student’s needs. We start with a diagnostic assessment of the student’s progress to date and with a view to identifying the most important factors that need to be addressed for the student to excel in Economics.
 
 <img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Documents on Wooden Surface" title="Documents on Wooden Surface" class="Right" width="600px" height="450px" loading="lazy"/>
 
-## Course Levels:
+Students excel in Economics if they achieve proficiency in seven core skills. Once mastered, students are then tutored on exam technique to secure a high exam grade.
 
-A-level, IB Diploma and GCSE.
+Most students will have already made progress mastering several of the core skills. Literacy, numeracy and subject knowledge would be obvious examples here. But my focus is on tutees gaining a much higher level of attainment of each skill and a well-developed ability to use them in effective ways in the exam hall writing top quality responses to exam questions.
 
-## Examination Boards Covered:
+---
 
-AQA, CIE, Edexcel, Eduqas, IB and OCR.
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Documents on Wooden Surface" title="Documents on Wooden Surface" class="Left" width="600px" height="450px" loading="lazy"/>
 
-## Seven Skills Focus:
+I tutor UK students studying A-level and GCSE courses offered by the examination boards AQA, Edexcel, Eduqas and OCR.
 
-Students excel in Economics if they achieve proficiency in seven core skills’ areas. Most students may have already made good progress in some of these areas and now just need to work on a few and/or bring them all together to write top quality exam answers.
+Students living outside the UK are tutored for the A-level Economics course offered by Cambridge International Examinations (CIE). I also tutor UK and overseas students the Standard- and Higher-level Economics modules in the International Baccalaureate
+Diploma programme (IBD).
 
-### Knowledge
+---
 
-***Clear definitions*** of terms, concepts and models in economics.
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Documents on Wooden Surface" title="Documents on Wooden Surface" class="Right" width="600px" height="450px" loading="lazy"/>
 
-### Understanding
+I offer both home and online tutoring sessions. Tuition at the student’s home is preferred by most parents, though some opt for a mix of home and online tuition.
 
-Ability to explain the ***meaning*** of terms, concepts and models in economics.
 
-### Application
 
-***Applying*** knowledge and understanding of topics in economics to case study material and real-world events/trends.
 
-### Analysis
-
-Ability to ***break down*** an entity and **exploring relationships** (e.g. cause-and-effect, etc.) in detail. High level analysis is contextualised, detailed with well-developed chains of reasoning.
-
-### Evaluation
-
-Ability to make ***substantiated judgements*** based an analysis of the evidence. High level evaluation is analytical and contextualised, showing good ability to weigh up competing arguments.
-
-### Literacy
-
-Ability to write answers to exam questions to a **high standard** in terms of structure, use of subject vocabulary and connectives, with clarity of expression and, where appropriate, depth.
-
-### Numeracy
-
-The ability to think mathematically, especially in terms of ***relationships between data variables*** and their ‘knock-on’ consequences, is as important as basic numerical calculations and interpreting data in diagrams.
