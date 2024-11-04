@@ -35,16 +35,12 @@ I tutor young people across the ability range and from a wide range of education
 
 ### Economics
 
-A* - 33.3%
-
-A*-A - 77.7%
-
-A*-B - 100.0%
+* A* - 33.3%
+* A*-A - 77.7%
+* A*-B - 100.0%
 
 ### Business
 
-A* - 28.6%
-
-A*-A - 71.4%
-
-A*-B - 100.0%
+* A* - 28.6%
+* A*-A - 71.4%
+* A*-B - 100.0%
