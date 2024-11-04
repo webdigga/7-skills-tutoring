@@ -1,40 +1,50 @@
 ---
-title: Profile
-seoTitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor.
-  Vivamus id neque nisi.
+title: Michael Carragher Tutor Profile
+seoTitle: Michael Carragher Tutor Profile | Seven Skills Tutoring
+description: Michael Carragher provides personalised tutoring in business and
+  economics to help students of all backgrounds achieve top exam grades.
+author: David White
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
   - article
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi. Michael.
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Right" width="600px" height="450px" loading="lazy"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi:
+I aim to ensure all my students secure the best exam grades possible. Every student therefore receives customised tuition to meet their individual needs.
 
-## **Lorem ipsum dolor sit amet**
+I tutor young people across the ability range and from a wide range of educational backgrounds, including students attending Independent and State schools and colleges through to those best suited to home-schooling.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+- - -
 
-## **Lorem ipsum dolor**
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Left" width="600px" height="450px" loading="lazy"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+## Qualifications & Experience:
 
-## **Lorem ipsum**
+* Qualified teacher B.Sc., M.Phil., PGCE
+* 22 years teaching and tutoring experience
+* A-level and GCSE Examiner
+* DBS Enhanced Certificate status
+* Leave space for this bullet point!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+- - -
 
-## **Lorem ipsum dolor sit amet**
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Right" width="600px" height="450px" loading="lazy"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+## A-level Exam Success 2022 to 2024
 
-## **Lorem ipsum dolor sit**
+### Economics
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+A* - 33.3%
 
-## **Lorem**
+A*-A - 77.7%
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+A*-B - 100.0%
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi.
+### Business
+
+A* - 28.6%
+
+A*-A - 71.4%
+
+A*-B - 100.0%
