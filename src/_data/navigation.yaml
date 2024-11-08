@@ -15,10 +15,8 @@ firstLevelItems:
     secondLevelItems:
       - text: Economics
         url: /personalised-economics-tutoring/
-      - text: Exam Workshops
-        url: /exam-workshops/
-      - text: School Support
-        url: /school-support/
+      - text: Additional Learning Opportunities
+        url: /additional-learning-opportunities/
   - text: Resources
     url: /resources/
     secondLevelItems:

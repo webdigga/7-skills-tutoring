@@ -1,6 +1,6 @@
 {% import "../components/logo.html" as owlLogo with context %}
 
-<div class="w-full relative py-3 hammersmith-font">
+<div class="w-full relative py-3 px-8">
   <div class="w-full container">
     <nav class="flex xl:justify-between flex-col xs:flex-row sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
       <!--Logo etc-->
@@ -8,7 +8,7 @@
         <a href="/">
           {{ owlLogo.logo(width='100px', height='54px', maxWidthClasses='max-w-28') }}
         </a>
-        <div class="mb-0 text-2xl tracking-normal">
+        <div class="mb-0 text-2xl tracking-normal max-w-48 sm:max-w-none">
           <a href="/">
             {{ settings.siteName }}
           </a>
