@@ -11,9 +11,11 @@ tags:
 ---
 <img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Right" width="600px" height="450px" loading="lazy"/>
 
-I aim to ensure all my students secure the best exam grades possible. Every student therefore receives customised tuition to meet their individual needs.
+*I aim to ensure all my students secure the best exam grades possible. Every student therefore receives customised tuition to meet their individual needs.*
 
-I tutor young people across the ability range and from a wide range of educational backgrounds, including students attending Independent and State schools and colleges through to those best suited to home-schooling.
+*I tutor young people across the ability range and from a wide range of educational backgrounds, including students attending Independent and State schools and colleges through to those best suited to home-schooling.*
+
+***Michael Carragher***
 
 - - -
 
