@@ -51,7 +51,8 @@ module.exports = function (eleventyConfig) {
     "./src/admin/imageComponent.js": "./admin/imageComponent.js",
     "./src/admin/buttonComponent.js": "./admin/buttonComponent.js",
     "./src/admin/videoComponent.js": "./admin/videoComponent.js",
-     "./src/admin/tickListComponent.js": "./admin/tickListComponent.js"
+    "./src/admin/tickListComponent.js": "./admin/tickListComponent.js",
+    "./src/admin/starRatingComponent.js": "./admin/starRatingComponent.js"
   });
 
   // Copy Image Folder to /_site
