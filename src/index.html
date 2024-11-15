@@ -20,11 +20,13 @@ eleventyComputed:
   {% include "./_includes/partials/navbar.html" %}
 
   <div class="flex items-center flex-col content-center justify-center grow mt-[calc(var(--navigationHeight)*-1)] text-center px-8">
-    {{ owlLogo.logo(width='320px', height='320px') }}
-    <h1>Michael Carragher</h1>
-    <h2>Economics and Business Tutor</h2>
     <a
       href="/michael-carragher-tutor-profile/"
-      class="p-2">Meet your tutor ></a>
+      class="flex flex-col items-center">
+      {{ owlLogo.logo(width='320px', height='320px') }}
+      <h1>Michael Carragher</h1>
+      <h2>Economics and Business Tutor</h2>
+      <div>Meet your tutor ></div>
+    </a>
   </div>
 </div>
