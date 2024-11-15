@@ -4,6 +4,7 @@
 
 /*Your Custom CSS Goes here*/
 :root {
+  --white: #ffffff;
   --dark: #334155;
   --light-blue: #e1f1fd;
   --lightest-gray: #f9fafb;
@@ -18,7 +19,7 @@ body {
   color: var(--dark);
 }
 
-h1, h2, h3, h4, h5, .hammersmith-font {
+h1, h2, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
@@ -29,12 +30,26 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+h1 {
+  @apply text-3xl sm:text-4xl tracking-tighter lg:text-5xl mb-5;
+}
+
 h2 {
   @apply text-2xl sm:text-3xl lg:text-4xl mb-4;
 }
 
 h3, h4 {
   @apply text-xl sm:text-2xl lg:text-3xl mb-4;
+}
+
+.stripe {
+  height: 100vh;
+  /* Start #5cbcb0 from 0 and end at 5%, Start #fff at 5% and end at 15%, Start #5cbcb0 again at 15% and end at 100% */
+  background-size: 100%;
+  background-repeat: no-repeat; /* To avoid multiple instances */
+  background:
+    linear-gradient(135deg, var(--light-blue) 5%, #ffffff 5%, #ffffff 15%, transparent 15%),
+    linear-gradient(135deg, transparent 93%, #ffffff 93%, #ffffff 96%, var(--light-blue) 96%);
 }
 
 .menu-styles {

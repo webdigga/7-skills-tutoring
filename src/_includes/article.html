@@ -6,6 +6,10 @@ eleventyComputed:
   canonical: "{{ env.site }}/{{ title | slugify }}/"
 ---
 
+{% import "./partials/navbar.html" as navBar with context %}
+
+{{ navBar.navBarComponent('bg-[color:var(--light-blue)] xl:bg-transparent') }}
+
 <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
 
   <div class="bg-white py-8 px-8">
@@ -26,3 +30,5 @@ eleventyComputed:
 
   </div>
 </div>
+
+{% include "./partials/footer.html" %}

@@ -78,11 +78,7 @@
 
   <body class="bg-color {{ "prod" if env.isProd }}">
 
-    {% include "./partials/navbar.html" %}
-
     {{ content | safe }}
-    
-    {% include "./partials/footer.html" %}
 
     {% if env.isProd %}
       {% include "./partials/cookie-consent.html" %}

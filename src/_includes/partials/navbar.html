@@ -1,117 +1,130 @@
-{% import "../components/logo.html" as owlLogo with context %}
+{% macro navBarComponent(bgColor) %}  
 
-<div class="w-full relative py-3 px-8">
-  <div class="w-full container">
-    <nav class="flex xl:justify-between flex-col xs:flex-row sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
-      <!--Logo etc-->
-      <div class="flex items-center font-bold text-3xl tracking-tighter lg:text-6xl">
-        <a href="/">
-          {{ owlLogo.logo(width='100px', height='54px', maxWidthClasses='max-w-28') }}
-        </a>
-        <div class="mb-0 text-2xl tracking-normal max-w-48 sm:max-w-none">
-          <a href="/">
-            {{ settings.siteName }}
+  {% import "../components/logo.html" as owlLogo with context %}
+
+  {% set logoVisibility %}
+    {% if page.url === '/' %}
+      hidden
+    {% else %}
+      block
+    {% endif %}
+  {% endset %}
+
+  <div class="w-full relative py-3 px-8 min-h-[124px] content-center">
+    <div class="w-full container">
+      <nav class="flex xl:justify-between flex-col xs:flex-row sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
+        <!--Logo etc-->
+        <div class="flex items-center font-bold text-3xl tracking-tighter lg:text-6xl {{ logoVisibility }}">
+          <a
+            href="/">
+            {{ owlLogo.logo(width='100px', height='54px', maxWidthClasses='max-w-28') }}
           </a>
+          <div class="mb-0 text-2xl tracking-normal max-w-48 sm:max-w-none">
+            <a
+              href="/">
+              {{ settings.siteName }}
+            </a>
+          </div>
         </div>
-      </div>
 
-      <!--Toggle button (hidden on large screens)-->
-      <button
-        data-test="menuButton"
-        type="button"
-        class="ml-auto xl:hidden focus:outline-none mb-4 xs:mb-0 xs:order-1"
-        aria-label="Menu">
+        <!--Toggle button (hidden on large screens)-->
+        <button
+          data-test="menuButton"
+          type="button"
+          class="ml-auto xl:hidden focus:outline-none mb-4 xs:mb-0 xs:order-1"
+          aria-label="Menu">
 
-        <span>Menu</span>
+          <span>Menu</span>
 
-        <svg class="h-6 w-6 fill-current inline-block" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
-          <path
-            class="hidden"
-            data-test="cross"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-          />
-          <path
-          class="block"
-            data-test="burger"
-            fill-rule="evenodd"
-            d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-          />
-        </svg>
-      </button>
+          <svg class="h-6 w-6 fill-current inline-block" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+            <path
+              class="hidden"
+              data-test="cross"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+            />
+            <path
+            class="block"
+              data-test="burger"
+              fill-rule="evenodd"
+              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+            />
+          </svg>
+        </button>
 
-      <!--Menu-->
-      <div
-        data-test="menu"
-        class="z-20 w-full flex-grow xl:flex xl:items-center xl:w-auto xl:min-w-[540px] text-center hidden xl:order-1 bg-[color:var(--light-blue)]"
-      >
+        <!--Menu-->
+        <div
+          data-test="menu"
+          class="z-20 w-full flex-grow xl:flex xl:items-center xl:w-auto xl:min-w-[540px] text-center hidden xl:order-1 {{ bgColor | safe }}"
+        >
 
-        <div class="flex justify-center xl:block xl:w-full py-4 xl:py-0">
+          <div class="flex justify-center xl:block xl:w-full py-4 xl:py-0">
 
-          {% if navigation.firstLevelItems %}
+            {% if navigation.firstLevelItems %}
 
-            <ul class="max-w-[280px] xl:max-w-full pt-3 xl:pt-0 list-reset xl:flex justify-end flex-1 items-center">
-              {% for item in navigation.firstLevelItems %}
-                <li class="nav__item xl:relative group text-left">
-                  
-                  {% if item.text == 'Home' or item.text == 'Contact' %}
-                  
-                    <a href="{{ item.url }}">
-                      <span
-                        class="mt-4 xl:mt-0 inline-flex xl:flex items-center dark-copy font-medium xl:py-3 xl:px-4">
-                        <span class="pr-1 xl:pr-0 xl:hover:underline-offset-4 xl:hover:decoration-1 xl:hover:underline xl:hover:decoration-[color:var(--dark)] {% if item.url == page.url %}underline-offset-4 decoration-2 underline decoration-[color:var(--dark)] {% else %} no-underline {% endif %}">{{ item.text }}</span><span class="xl:hidden"> ></span>
-                      </span>
-                    </a>
-
-                  {% else %}
-
-                  <span
-                    class="mt-4 mb-2 xl:mb-0 xl:mt-0 xl:flex xl:items-center dark-copy font-medium inline-block xl:py-3 xl:px-4 xl:hover:underline-offset-4 xl:hover:decoration-1 xl:hover:underline xl:hover:decoration-[color:var(--dark)] {% if item.url == page.url %}underline-offset-4 decoration-2 underline decoration-[color:var(--dark)] {% else %} no-underline {% endif %}">
-                    <span class="xl:pr-1">{{ item.text }}</span>
-                      {% if item.secondLevelItems %}
-                        <svg
-                          width="12px"
-                          height="12px"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="hidden size-3 xl:block">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                          />
-                        </svg>
-                      {% endif %}
-                    </span>
-
-                  {% endif %}
-
-
-                  {% if item.secondLevelItems %}
-                    <ul class="ml-3 xl:ml-0 flex flex-col items-left xl:items-center dark-copy xl:absolute xl:hidden xl:z-10 xl:bg-white xl:group-hover:block xl:text-left xl:px-4 xl:w-40 xl:border xl:border-solid xl:border-[color:var(--very-light-gray)]">
+              <ul class="max-w-[280px] xl:max-w-full pt-3 xl:pt-0 list-reset xl:flex justify-end flex-1 items-center">
+                {% for item in navigation.firstLevelItems %}
+                  <li class="nav__item xl:relative group text-left">
                     
-                      {% for subItem in item.secondLevelItems %}
-                        <li class="xl:flex items-center inline-flex text-left">                        
-                          <a
-                            href="{{ subItem.url }}"
-                            class="pr-1 xl:pr-0 xl:w-full text-sm py-2 xl:py-4 inline-flex items-center">
-                            <span class="xl:hover:underline-offset-4 xl:hover:decoration-1 xl:hover:underline xl:hover:decoration-[color:var(--dark)] {% if subItem.url == page.url %}underline-offset-4 decoration-2 underline decoration-[color:var(--dark)] {% else %} no-underline {% endif %}">{{ subItem.text }}</span><span class="pl-1 xl:pl-0 xl:hidden"> ></span>
-                          </a>
-                          
-                        </li>
-                      {% endfor %}
-                  {% endif %}                
-                </li>
-              {% endfor %}
-            </ul>
+                    {% if item.text == 'Home' or item.text == 'Contact' %}
+                    
+                      <a href="{{ item.url }}">
+                        <span
+                          class="mt-4 xl:mt-0 inline-flex xl:flex items-center dark-copy font-medium xl:py-3 xl:px-4">
+                          <span class="pr-1 xl:pr-0 xl:hover:underline-offset-4 xl:hover:decoration-1 xl:hover:underline xl:hover:decoration-[color:var(--dark)] {% if item.url == page.url %}underline-offset-4 decoration-2 underline decoration-[color:var(--dark)] {% else %} no-underline {% endif %}">{{ item.text }}</span><span class="xl:hidden"> ></span>
+                        </span>
+                      </a>
 
-          {% endif %}
+                    {% else %}
+
+                    <span
+                      class="mt-4 mb-2 xl:mb-0 xl:mt-0 xl:flex xl:items-center dark-copy font-medium inline-block xl:py-3 xl:px-4 xl:hover:underline-offset-4 xl:hover:decoration-1 xl:hover:underline xl:hover:decoration-[color:var(--dark)] {% if item.url == page.url %}underline-offset-4 decoration-2 underline decoration-[color:var(--dark)] {% else %} no-underline {% endif %}">
+                      <span class="xl:pr-1">{{ item.text }}</span>
+                        {% if item.secondLevelItems %}
+                          <svg
+                            width="12px"
+                            height="12px"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="hidden size-3 xl:block">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                            />
+                          </svg>
+                        {% endif %}
+                      </span>
+
+                    {% endif %}
+
+
+                    {% if item.secondLevelItems %}
+                      <ul class="ml-3 xl:ml-0 flex flex-col items-left xl:items-center dark-copy xl:absolute xl:hidden xl:z-10 xl:bg-white xl:group-hover:block xl:text-left xl:px-4 xl:w-40 xl:border xl:border-solid xl:border-[color:var(--very-light-gray)]">
+                      
+                        {% for subItem in item.secondLevelItems %}
+                          <li class="xl:flex items-center inline-flex text-left">                        
+                            <a
+                              href="{{ subItem.url }}"
+                              class="pr-1 xl:pr-0 xl:w-full text-sm py-2 xl:py-4 inline-flex items-center">
+                              <span class="xl:hover:underline-offset-4 xl:hover:decoration-1 xl:hover:underline xl:hover:decoration-[color:var(--dark)] {% if subItem.url == page.url %}underline-offset-4 decoration-2 underline decoration-[color:var(--dark)] {% else %} no-underline {% endif %}">{{ subItem.text }}</span><span class="pl-1 xl:pl-0 xl:hidden"> ></span>
+                            </a>
+                            
+                          </li>
+                        {% endfor %}
+                    {% endif %}                
+                  </li>
+                {% endfor %}
+              </ul>
+
+            {% endif %}
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </div>
-</div>
+{% endmacro %}

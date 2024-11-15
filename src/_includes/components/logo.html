@@ -1,6 +1,6 @@
-{% macro logo(width, height, maxWidthClasses, classes, lazy) %} 
+{% macro logo(width, height, maxWidthClasses, classes, lazy, visible) %} 
   <img
-    class="{{ classes | safe }} {{ maxWidthClasses | safe }}"
+    class="{{ classes | safe }} {{ maxWidthClasses | safe }} {{ visible | safe }}"
     src="{{ settings.logoUrl }}"
     width="{{ width | safe }}"
     height="{{ height | safe }}"
