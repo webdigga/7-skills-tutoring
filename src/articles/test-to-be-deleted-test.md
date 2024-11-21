@@ -15,6 +15,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in massa at risu
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in massa at risus faucibus rhoncus. Proin non tempus eros, quis consequat tellus.
 
+<img src="/_includes/static/img/screenshot-2024-11-21-17.27.12.png" alt="dfgdfgdf" title="dfgdfgdf" class="Centre" width="600px" height="450px" loading="lazy"/>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in massa at risus faucibus rhoncus. Proin non tempus eros, quis consequat tellus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in massa at risus faucibus rhoncus. Proin non tempus eros, quis consequat tellus.
+
 <img src="/_includes/static/img/screenshot-2024-11-21-12.20.01.png" alt="" title="" class="Centre" width="600px" height="450px" loading="lazy"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in massa at risus faucibus rhoncus. Proin non tempus eros, quis consequat tellus.
