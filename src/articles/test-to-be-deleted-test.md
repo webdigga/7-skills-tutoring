@@ -1,8 +1,9 @@
 ---
 title: Exemplar - Diagrammatic analysis of perfect competition
 seoTitle: Exemplar - Diagrammatic analysis of perfect competition
-description: Test to be deleted Test Test to be deleted Test Test to be deleted
-  Test Test to be deleted Test Test to be deleted Test Test to be deleted Test
+description: Explore a detailed exemplar of diagrammatic analysis for perfect
+  competition, ideal for economics students and tutors. Clear, concise, and
+  educational.
 author: David White
 date: 2024-11-22T17:09:00.000Z
 type: article
