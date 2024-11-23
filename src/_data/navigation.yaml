@@ -18,8 +18,8 @@ firstLevelItems:
   - text: Resources
     url: /resources/
     secondLevelItems:
-      - text: Resources 1
-        url: /resources-one/
+      - text: Diagrammatic analysis of perfect competition
+        url: /exemplar-diagrammatic-analysis-of-perfect-competition/
       - text: Resources 2
         url: /resources-two/
       - text: Resources 3
