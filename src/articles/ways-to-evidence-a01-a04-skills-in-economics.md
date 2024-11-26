@@ -13,3 +13,9 @@ tags:
 <img src="/_includes/static/img/a01.avif" alt="A01 - Knowledge and understanding" title="A01 - Knowledge and understanding" class="Centre" width="698px" height="278px" loading="lazy"/>
 
 <img src="/_includes/static/img/a02.avif" alt="A02 - Application" title="A02 - Application" class="Centre" width="698px" height="182px" loading="lazy"/>
+
+<img src="/_includes/static/img/a03.avif" alt="A03 - Analysis" title="A03 - Analysis" class="Centre" width="698px" height="275px" loading="lazy"/>
+
+<img src="/_includes/static/img/a04.avif" alt="A04 - Evaluation" title="A04 - Evaluation" class="Centre" width="698px" height="167px" loading="lazy"/>
+
+\* Note: 1.) A02+A03 = contextual analysis. A02+A04 = contextual evaluation. 2.) There is obvious overlap between the A0s - e.g. A01 Knowledge and Understanding would be demonstrated through A03 Analysis; fully developed A04 Evaluation will be analytical, therefore showing A03 Analysis.
