@@ -1,9 +1,9 @@
 ---
 title: Ways to evidence A01-A04 skills in Economics
 seoTitle: Ways to evidence A01-A04 skills in Economics | Seven Skills
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-  interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque
-  nisi.
+description: Discover practical tips to evidence A01–A04 skills in economics.
+  Enhance your essays and exam answers with clear examples and structured
+  techniques.
 author: David White
 date: 2024-11-26T14:39:00.000Z
 type: article
