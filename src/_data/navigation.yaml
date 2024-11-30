@@ -8,6 +8,8 @@ firstLevelItems:
         url: /michael-carragher-tutor-profile/
       - text: Testimonials
         url: /testimonials-for-michael-carragher/
+      - text: FAQs
+        url: /frequently-asked-questions-faqs/
   - text: Services
     url: /services/
     secondLevelItems:

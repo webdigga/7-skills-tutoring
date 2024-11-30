@@ -7,6 +7,7 @@ eleventyComputed:
 ---
 
 {% import "./partials/navbar.html" as navBar with context %}
+{% import "./components/faqs.html" as faqs with context %}
 
 {{ navBar.navBarComponent('bg-[color:var(--light-blue)] xl:bg-transparent') }}
 
@@ -23,6 +24,12 @@ eleventyComputed:
       <article class="prose my-4 max-w-none flex flex-col md:block prose-hr:clear-both prose-h2:md:mt-0">
   
           {{ content | safe }}
+
+          {% if 'faq' in tags %}
+          
+            {{ faqs.faqs() }}
+
+          {% endif %}
 
       </article>
   

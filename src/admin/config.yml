@@ -182,3 +182,14 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Quote, name: quote, widget: string }
               - { label: Name, name: name, widget: string }
+      - label: "FAQs"
+        name: "faqs"
+        file: "src/_data/faqsData.yaml"
+        fields:
+          - label: FAQ Items
+            name: faqs
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: string }
