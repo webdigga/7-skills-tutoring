@@ -9,7 +9,7 @@ type: article
 tags:
   - article
 ---
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Right" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/profile.avif" alt="Photo of Michael Carragher" title="Photo of Michael Carragher" class="Right" width="600px" height="450px" loading="lazy"/>
 
 *I aim to ensure all my students secure the best exam grades possible. Every student therefore receives customised tuition to meet their individual needs.*
 
