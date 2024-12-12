@@ -13,7 +13,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 - - -
 
-### *"Very happy days"*
+## *"Very happy days"*
 
 > Morning Michael! My son wants you to know he got an A in Economics. He is in shock but very grateful for all your guidance which kept him going. Very happy days
 
@@ -39,7 +39,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 - - -
 
-### "*Definitely recommended*"
+## "*Definitely recommended*"
 
 > Very helpful and dedicated to helping his student with a crash course before A level Economics exams. With his years of experience as a teacher and examiner, Michael understands students and has much to share and does so for the student's benefit. Michael also was great at communicating with us parents. Definitely recommended
 
@@ -65,7 +65,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 - - -
 
-### "*Highly recommend him*"
+## "*Highly recommend him*"
 
 > Michael was very patient with our daughter and helped her improve and consolidate her knowledge for her A level Business exams. She achieved the grade needed at A level to go to her first-choice university and Michael was key in helping her do that. He is very generous with his time and we would highly recommend him
 
@@ -91,7 +91,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 - - -
 
-### "*I recommend him without hesitation*"
+## "*I recommend him without hesitation*"
 
 > Michael is a fantastic tutor. He is very knowledgeable and conscientious and has a deep understanding of economics for A-level exams. I also appreciate that he provided ongoing updates on our son’s progress and was not shy about pushing and encouraging our son to do his very best. I recommend him without hesitation
 
@@ -117,7 +117,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 - - -
 
-### "*I thoroughly recommend Michael as a tutor*"
+## "*I thoroughly recommend Michael as a tutor*"
 
 > Michael is an excellent tutor. He is thorough and very knowledgeable of specific exam board specifications and provides excellent support and tuition for A-level Economics. I thoroughly recommend Michael as a tutor
 
@@ -143,7 +143,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 - - -
 
-### *"Highly recommended"*
+## *"Highly recommended"*
 
 > Superb tutor. Michael is a genuinely dedicated, absolutely solid and knowledgeable tutor with infinite patience and commitment. He goes the extra mile to ensure the student is confident and well versed in the relevant subject. He is helping my son with university level Economics and Accounting. Highly recommended
 
