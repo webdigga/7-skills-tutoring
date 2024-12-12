@@ -9,8 +9,26 @@ type: article
 tags:
   - article
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum ultricies tellus, eget commodo eros tincidunt id. Duis ut diam a mauris dictum posuere ac ac libero. Morbi tempor metus eget consectetur tempor. Nam dui nibh, rhoncus a varius mollis, gravida in erat. Curabitur condimentum tincidunt felis vel lacinia. Praesent lobortis malesuada orci, at lacinia sem volutpat eu. Donec eget sem consequat enim varius porta. Etiam interdum magna elementum eros tincidunt accumsan. Sed mollis tincidunt nunc eget lacinia. Praesent sodales tellus a nisl porta, at rutrum turpis varius.
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Right" width="600px" height="450px" loading="lazy"/>
 
-Suspendisse ante nisl, vestibulum in dignissim sed, congue nec tellus. Suspendisse eu enim viverra, porta ex eu, dapibus nisi. Maecenas laoreet mattis consequat. Proin tortor enim, rhoncus sit amet neque in, pulvinar auctor velit. Praesent ac diam justo. Integer congue eget turpis at tristique. Nunc tincidunt sed lectus at pulvinar. Etiam id ante ut ligula efficitur vehicula sagittis sit amet nisl. In eleifend convallis metus, sit amet vulputate nulla. Maecenas ut egestas sem.
+Students studying A-level Business are provided with customised tuition geared to their specific learning needs.
 
-Nam nec lectus id elit placerat sodales eget nec risus. Fusce ligula arcu, laoreet ac eleifend quis, egestas quis lacus. Fusce quis porttitor eros. Nunc a hendrerit magna. Mauris tellus odio, convallis vel accumsan sed, sollicitudin quis orci. Mauris ac tincidunt lectus. Vivamus sed diam a justo consequat semper. Nunc rhoncus ex lacus, sed imperdiet magna sagittis ac. Fusce tincidunt nunc a magna fringilla, nec elementum augue laoreet. Nam ornare egestas viverra. Nullam semper molestie elit, quis placerat lectus rhoncus ut.
+I start with a diagnostic assessment of student progress to date and with a view to identifying the most important issues that need addressing for the student to achieve their target exam grade.
+
+Having taught and tutored students the AQA, Edexcel and Eduqas A-level Business courses over many years, I know all the topics that need to be mastered in detail and the best exam technique to deploy for achieving a high grade in each of their exam papers.
+
+- - -
+
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Left" width="600px" height="450px" loading="lazy"/>
+
+Written responses to past exam questions is a key area which I work with students on throughout my time tutoring them, especially for evidencing the ‘higher order’ skills of analysis and evaluation.
+
+For me, best practice tutoring of A-level Business must also include expert tuition on mastering business financial fundamentals (e.g. revenue streams, profitability, balance sheet strength, cash flow, etc.) as these lie at the heart of understanding business performance and the non-financial factors affecting them.
+
+- - -
+
+<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Right" width="600px" height="450px" loading="lazy"/>
+
+It is also important to factor into tutoring case studies of real businesses, especially ones that students have prior knowledge of (often as consumers themselves), as well as other firms which tutees might not know about but could easily understand.
+
+Using real world businesses as aids makes mastering A-level Business more interesting and exciting, and invariably inspires students to write to a much higher standard, especially when covering business strategy topics such as Porter’s Five Forces Model of Competition, Porter’s Generic Strategies, etc..
