@@ -8,6 +8,7 @@ date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
   - article
+  - resource
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum in dui vitae congue. Cras consequat posuere tempor. Vivamus id neque nisi. Michael.
 
