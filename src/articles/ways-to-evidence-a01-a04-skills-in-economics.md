@@ -9,6 +9,7 @@ date: 2024-11-26T14:39:00.000Z
 type: article
 tags:
   - article
+  - resource
 ---
 <img src="/_includes/static/img/a01.avif" alt="A01 - Knowledge and understanding" title="A01 - Knowledge and understanding" class="Centre" width="698px" height="278px" loading="lazy"/>
 

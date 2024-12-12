@@ -59,6 +59,10 @@ h3, h4 {
   background: var(--light-blue);
 }
 
+article p:first-of-type {
+  margin-top: 0;
+}
+
 /*
   Article image component
 */

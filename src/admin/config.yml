@@ -54,7 +54,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["article", "privacy", "report", "faq"]
+        options: ["article", "privacy", "report", "faq", "resource"]
         default: ["article"]
   - label: "Homepage Text"
     name: "homepageSpiel"

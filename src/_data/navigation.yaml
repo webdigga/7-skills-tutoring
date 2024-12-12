@@ -5,7 +5,7 @@ firstLevelItems:
     url: /about/
     secondLevelItems:
       - text: Profile
-        url: /michael-carragher-tutor-profile/
+        url: /tutor-profile/
       - text: Testimonials
         url: /testimonials-for-michael-carragher/
       - text: FAQs
@@ -13,16 +13,18 @@ firstLevelItems:
   - text: Services
     url: /services/
     secondLevelItems:
-      - text: Economics
+      - text: Economics Tutoring
         url: /personalised-economics-tutoring/
-      - text: Additional Learning Opportunities
+      - text: Business Tutoring
+        url: /personalised-business-tutoring/
+      - text: Other Services
         url: /additional-learning-opportunities/
   - text: Resources
     url: /resources/
     secondLevelItems:
-      - text: Diagrammatic analysis of perfect competition
+      - text: Diagrammatic analysis
         url: /exemplar-diagrammatic-analysis-of-perfect-competition/
-      - text: Ways to evidence A01-A04 skills in Economics
+      - text: A01-A04 skills
         url: /ways-to-evidence-a01-a04-skills-in-economics/
       - text: Resources 3
         url: /resources-three/

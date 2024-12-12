@@ -21,13 +21,21 @@ eleventyComputed:
         <h1 class="text-5xl text-left inline-block mb-5 md:mb-0 tracking-normal">{{ title }}</h1>
       </div>
   
-      <article class="prose my-4 max-w-none flex flex-col md:block prose-hr:clear-both prose-h2:md:mt-0">
+      <article class="prose my-4 max-w-none flex flex-col md:block prose-hr:clear-both prose-h2:md:mt-0 prose-li:m-0 prose-h3:my-2">
   
           {{ content | safe }}
 
           {% if 'faq' in tags %}
           
             {{ faqs.faqs() }}
+
+          {% endif %}
+
+          {% if 'resource' in tags %}
+          
+            <div class="text-right">
+              <small>&copy; Seven Skills Tutoring 2024. All rights reserved.</small>
+            </div>
 
           {% endif %}
 

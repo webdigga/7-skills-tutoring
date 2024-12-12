@@ -1,5 +1,5 @@
 ---
-title: Michael Carragher Tutor Profile
+title: Tutor Profile
 seoTitle: Michael Carragher Tutor Profile | Seven Skills Tutoring
 description: Michael Carragher provides personalised tutoring in business and
   economics to help students of all backgrounds achieve top exam grades.
@@ -11,9 +11,9 @@ tags:
 ---
 <img src="/_includes/static/img/profile.avif" alt="Photo of Michael Carragher" title="Photo of Michael Carragher" class="Right" width="600px" height="450px" loading="lazy"/>
 
-*I aim to ensure all my students secure the best exam grades possible. Every student therefore receives customised tuition to meet their individual needs.*
+*I aim to ensure all my students secure the best possible exam grades. Every tutee receives customised tuition to meet their specific learning needs and for the course syllabus they are studying.*
 
-*I tutor young people across the ability range and from a wide range of educational backgrounds, including students attending Independent and State schools and colleges through to those best suited to home-schooling.*
+*I tutor young people across the ability range and from a wide range of educational backgrounds. My tutees study in a diverse range of educational institutions: Independent schools and colleges, Grammar schools, Academies, Sixth Form colleges and Community schools. I also tutor home-schooled students.*
 
 ***Michael Carragher***
 
@@ -23,11 +23,11 @@ tags:
 
 ## Qualifications & Experience:
 
-* Qualified teacher B.Sc., M.Phil., PGCE
-* 22 years teaching and tutoring experience
+* Qualified teacher B.Sc., M.Phil., PGCE.
+* 18 years teaching experience
+* 12 years tutoring experience
 * A-level and GCSE Examiner
 * DBS Enhanced Certificate status
-* Leave space for this bullet point!
 
 - - -
 
