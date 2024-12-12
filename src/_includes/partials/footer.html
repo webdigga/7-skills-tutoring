@@ -52,7 +52,7 @@
         {% for item in navigation.firstLevelItems %}
           {% if item.text != 'Home' and item.text != 'Contact' %}
             <div class="mx-auto w-full lg:w-auto text-center lg:text-left">
-              <h4 class="mb-2 font-medium text-lg">{{ item.text }}</h4>
+              <div class="mb-2 font-medium text-lg">{{ item.text }}</div>
 
               {% if item.secondLevelItems %}
                 <ul class="text-sm  transition-all duration-500">
