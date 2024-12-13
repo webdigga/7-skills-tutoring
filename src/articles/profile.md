@@ -35,14 +35,10 @@ tags:
 
 ## A-level Exam Success 2022 to 2024
 
-### Economics
+### **A-level Economics:**
 
-* A* - 33.3%
-* A*-A - 77.7%
-* A*-B - 100.0%
+A\* 33.3%    A\*-A 77.7%    A*-B 100.0%
 
-### Business
+### **A-level Business:**
 
-* A* - 28.6%
-* A*-A - 71.4%
-* A*-B - 100.0%
+A\* 28.6%    A\*-A 71.4%    A*-B 100.0%
