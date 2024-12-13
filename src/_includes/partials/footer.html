@@ -1,17 +1,17 @@
 {% import "../components/logo.html" as owlLogo with context %}
 
 <footer class="w-full mt-8">
-  <div class="sm:max-w-xl mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
+  <div class="sm:max-w-xl mx-auto md:max-w-2xl xl:max-w-5xl">
       
-    <div class="px-6 lg:px-0 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 py-10 gap-y-8 sm:justify-items-center lg:justify-items-start">
-      <div class="col-span-full lg:col-span-3 lg:mb-0 flex flex-col items-center lg:items-start">
+    <div class="px-6 xl:px-0 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-3 py-10 gap-y-8 sm:justify-items-center xl:justify-items-start">
+      <div class="col-span-full xl:col-span-3 xl:mb-0 flex flex-col items-center xl:items-start">
 
         <a href="/">
           {{ owlLogo.logo(width='100px', height='54px', maxWidthClasses='max-w-28', lazy='loading="lazy"') }}
         </a>
 
         {% if settings.siteName %}
-          <p class="py-1 text-center lg:text-left">
+          <p class="py-1 text-center xl:text-left">
             <small class="subtle-text-on-light-background">
               <a
                 href="/"
@@ -23,7 +23,7 @@
         {% endif %}
 
         {% if settings.townCity %}
-          <p class="py-1 text-center lg:text-left">
+          <p class="py-1 text-center xl:text-left">
             <small class="subtle-text-on-light-background">        
               {{ settings.townCity | safe }}
             </small>
@@ -31,7 +31,7 @@
         {% endif %}
 
         {% if settings.email %}
-          <p class="py-1 text-center lg:text-left">
+          <p class="py-1 text-center xl:text-left">
             <small class="subtle-text-on-light-background">
               <a href="mailto:{{ settings.email }}" class="py-2 break-all">Email {{ settings.email }}</a>
             </small>
@@ -39,7 +39,7 @@
           {% endif %}
 
         {% if settings.phone %}
-          <p class="py-1 mb-2 text-center lg:text-left">
+          <p class="py-1 mb-2 text-center xl:text-left">
             <small class="subtle-text-on-light-background">        
               <a href="tel:{{ settings.phone }}" class="py-2">Call {{ settings.phone }}</a>
             </small>
@@ -51,11 +51,11 @@
       {% if navigation.firstLevelItems %}
         {% for item in navigation.firstLevelItems %}
           {% if item.text != 'Home' and item.text != 'Contact' %}
-            <div class="mx-auto w-full lg:w-auto text-center lg:text-left">
+            <div class="mx-auto w-full xl:w-auto text-center xl:text-left {% if loop.index === 4 %}col-span-2 sm:col-span-1{% endif %}">
               <div class="mb-2 font-medium text-lg">{{ item.text }}</div>
 
               {% if item.secondLevelItems %}
-                <ul class="text-sm  transition-all duration-500">
+                <ul class="text-sm transition-all duration-500">
                   {% for subItem in item.secondLevelItems %}
                     <li class="py-3">
                       <a
@@ -74,8 +74,8 @@
     </div>
       
     <div class="py-7 border-t border-solid border-t-gray-300">
-      <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-        <div class="text-center lg:text-left">
+      <div class="flex items-center justify-center flex-col xl:justify-between xl:flex-row">
+        <div class="text-center xl:text-left">
           <p class="subtle-text-on-light-background py-1">
             <small>© {{ settings.siteName }} {{ helpers.currentYear() }}. All rights reserved.</small>
           </p>
@@ -99,7 +99,7 @@
         {% endif %}
         </div>
 
-        <div class="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
+        <div class="flex mt-4 space-x-4 sm:justify-center xl:mt-0 ">
           <a
             href="#"
             target="_blank"
