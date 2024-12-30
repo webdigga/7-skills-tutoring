@@ -13,7 +13,7 @@ tags:
 
 *I aim to ensure all my students secure the best possible exam grades. Every tutee receives customised tuition to meet their specific learning needs and for the course syllabus they are studying.*
 
-*I tutor young people across the ability range and from a wide range of educational backgrounds. My tutees study in a diverse range of educational institutions: Independent schools and colleges, Grammar schools, Academies, Sixth Form colleges and Community schools. I also tutor home-schooled students.*
+I tutor young people across the ability range and from a wide range of educational backgrounds. My tutees study in a diverse range of educational institutions: Independent schools and colleges, Grammar schools, Academies, Sixth Form colleges and Community schools. I also tutor occasionally home-schooled students, as well as undergraduates studying degree modules in microeconomics and macroeconomics.
 
 ***Michael Carragher***
 
@@ -28,6 +28,7 @@ tags:
 * 12 years tutoring experience
 * A-level and GCSE Examiner
 * DBS Enhanced Certificate status
+* Mentor to trainee teachers
 
 - - -
 
