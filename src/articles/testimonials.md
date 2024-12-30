@@ -15,7 +15,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 ## *"*I recommend Michael to you unreservedly*"*
 
-> Michael is a very competent tutor whose experience was reflected in my son's confidence and performance, achieving grade ‘A’ for A-level Economics in 2023. Michael's ability to carry out his job with professionalism and integrity was faultless. I have been thoroughly impressed with him and have since enlisted Michael to tutor my daughter in A-level Economics for her exam in 2025. I recommend Michael to you unreservedly”
+> Michael is a very competent tutor whose experience was reflected in my son's confidence and performance, achieving grade ‘A’ for A-level Economics in 2023. Michael's ability to carry out his job with professionalism and integrity was faultless. I have been thoroughly impressed with him and have since enlisted Michael to tutor my daughter in A-level Economics for her exam in 2025. I recommend Michael to you unreservedly
 
 *~* **Mohammed** 2024
 
@@ -41,7 +41,7 @@ I've guided numerous students, helping them build confidence and reach their aca
 
 ## *"Very happy days"*
 
-> Morning Michael! My son wants you to know he got an A in Economics. He is in shock but very grateful for all your guidance which kept him going. Very happy days
+> Morning Michael! My son wants you to know he got an A* in Economics. He is in shock but very grateful for all your guidance which kept him going. Very happy days
 
 *~* **Deirdre** 2024
 
