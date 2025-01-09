@@ -25,21 +25,18 @@ I tutor young people across the ability range and from a wide range of education
 
 * Qualified teacher B.Sc., M.Phil., PGCE.
 * 18 years teaching experience
-* 12 years tutoring experience
 * A-level and GCSE Examiner
-* DBS Enhanced Certificate status
-* Mentor to trainee teachers
+* Up-to-date DBS Enhanced Certificate status
+* 12 years private tutoring experience
+* UCAS Administrator and reference writer
+* Mentor to student teachers and ECTs
 
 - - -
 
 <img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Right" width="600px" height="450px" loading="lazy"/>
 
-## A-level Exam Success 2022 to 2024
+## Local home tutoring locations
 
-### **A-level Economics:**
+\* Berrylands, \* Claygate, \* Esher, \* Fulwell, \* Ham, \* Hampton, \* Kingston, \* New Malden, \* Petersham, \* Raynes Park, \* Richmond, \* Surbiton, \* Teddington, \* Tolworth, * Twickenham.
 
-A\* 33.3%    A\*-A 77.7%    A*-B 100.0%
-
-### **A-level Business:**
-
-A\* 28.6%    A\*-A 71.4%    A*-B 100.0%
+\* No travel charges apply for home tutoring in these locations. Home tutoring at a further distance from Kingston may involve charges to cover additional travel time. Please [email me your location](/contact/) and I will let you know whether additional travel time charges would apply.

@@ -6,6 +6,8 @@ firstLevelItems:
     secondLevelItems:
       - text: Profile
         url: /tutor-profile/
+      - text: Pricing
+        url: /business-and-economics-tutoring-prices/
       - text: Testimonials
         url: /testimonials-for-michael-carragher/
       - text: FAQs
