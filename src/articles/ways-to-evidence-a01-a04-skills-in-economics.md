@@ -19,4 +19,4 @@ tags:
 
 <img src="/_includes/static/img/a04.avif" alt="A04 - Evaluation" title="A04 - Evaluation" class="Centre" width="1050px" height="259px" loading="lazy"/>
 
-\* Note: 1.) A02+A03 = contextual analysis. A02+A04 = contextual evaluation. 2.) There is obvious overlap between the A0s - e.g. A01 Knowledge and Understanding would be demonstrated through A03 Analysis; fully developed A04 Evaluation will be analytical, therefore showing A03 Analysis.
+\* Note: 1.) A02+A03 = contextual analysis. A02+A04 = contextual evaluation. 2.) There is obvious overlap between the A0s - e.g. A01 Knowledge and Understanding could be demonstrated through A03 Analysis; fully developed A04 Evaluation will be analytical, therefore showing A03 Analysis.

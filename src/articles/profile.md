@@ -35,8 +35,8 @@ I tutor young people across the ability range and from a wide range of education
 
 <img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Right" width="600px" height="450px" loading="lazy"/>
 
-## Local home tutoring locations
+## Home tutoring locations
 
-\* Berrylands, \* Claygate, \* Esher, \* Fulwell, \* Ham, \* Hampton, \* Kingston, \* New Malden, \* Petersham, \* Raynes Park, \* Richmond, \* Surbiton, \* Teddington, \* Tolworth, * Twickenham.
+Home visits can be made to most locations in Central London, South West London and large parts of Surrey, including:
 
-\* No travel charges apply for home tutoring in these locations. Home tutoring at a further distance from Kingston may involve charges to cover additional travel time. Please [email me your location](/contact/) and I will let you know whether additional travel time charges would apply.
+***Barnes, Berrylands, Chelsea, Chiswick, Clapham, Claygate, Cobham, Earlsfield, Esher, Fulwell, Ham, Hampton, Hounslow, Kensington, Kew, Kingston, New Malden, Oxshott, Petersham, Pimlico, Putney, Raynes Park, Richmond, Surbiton, Teddington, Thames Ditton, Tolworth, Twickenham, Waterloo, Weybridge, Wimbledon, Woking.***

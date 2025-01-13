@@ -1,7 +1,7 @@
 ---
-title: Personalised Business Tutoring
-seoTitle: Personalised Business Tutoring | Seven Skills Tutoring
-description: Boost your business success with personalised tutoring from Seven
+title: Customised Business Tutoring
+seoTitle: Customised Business Tutoring | Seven Skills Tutoring
+description: Boost your business success with customised tutoring from Seven
   Skills Tutoring. Expert guidance tailored to your learning needs!
 author: David White
 date: 2024-12-12T11:49:00.000Z

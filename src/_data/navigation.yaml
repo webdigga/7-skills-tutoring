@@ -7,7 +7,7 @@ firstLevelItems:
       - text: Profile
         url: /tutor-profile/
       - text: Pricing
-        url: /business-and-economics-tutoring-prices/
+        url: /economics-and-business-tutoring-prices/
       - text: Testimonials
         url: /testimonials-for-michael-carragher/
       - text: FAQs
@@ -16,18 +16,20 @@ firstLevelItems:
     url: /services/
     secondLevelItems:
       - text: Economics Tutoring
-        url: /personalised-economics-tutoring/
+        url: /customised-economics-tutoring/
       - text: Business Tutoring
-        url: /personalised-business-tutoring/
-      - text: Other Services
-        url: /additional-learning-opportunities/
+        url: /customised-business-tutoring/
+      - text: Workshops
+        url: /economics-and-business-workshops/
+      - text: School Support Services
+        url: /school-support-services/
   - text: Resources
     url: /resources/
     secondLevelItems:
-      - text: Diagrammatic analysis
-        url: /exemplar-diagrammatic-analysis-of-perfect-competition/
       - text: A01-A04 skills
         url: /ways-to-evidence-a01-a04-skills-in-economics/
+      - text: Diagrammatic analysis
+        url: /exemplar-diagrammatic-analysis-of-perfect-competition/
       - text: Resources 3
         url: /resources-three/
   - text: Contact
