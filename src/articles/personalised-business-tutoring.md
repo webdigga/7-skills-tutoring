@@ -9,26 +9,26 @@ type: article
 tags:
   - article
 ---
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Right" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/7-skills.avif" alt="7 Skills Diagram" title="7 Skills Diagram" class="Right" width="600px" height="450px" loading="lazy"/>
 
 Students studying A-level Business are provided with customised tuition geared to their specific learning needs.
 
-I start with a diagnostic assessment of student progress to date and with a view to identifying the most important issues that need addressing for the student to achieve their target exam grade.
+I start with a diagnostic assessment of learner’s progress to date to identify the most important issues that need addressing for the student to achieve their best in the exam hall.
 
-Having taught and tutored students the AQA, Edexcel and Eduqas A-level Business courses over many years, I know all the topics that need to be mastered in detail and the best exam technique to deploy for achieving a high grade in each of their exam papers.
-
-- - -
-
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Left" width="600px" height="450px" loading="lazy"/>
-
-Written responses to past exam questions is a key area which I work with students on throughout my time tutoring them, especially for evidencing the ‘higher order’ skills of analysis and evaluation.
-
-For me, best practice tutoring of A-level Business must also include expert tuition on mastering business financial fundamentals (e.g. revenue streams, profitability, balance sheet strength, cash flow, etc.) as these lie at the heart of understanding business performance and the non-financial factors affecting them.
+One key focus of my tutoring is to ensure students fully master all the topics in their course syllabus, meaning that they not only know the topics (e.g. definitions) but are also very confident in using them to show real depth of understanding in their written work.
 
 - - -
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Right" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/logos.avif" alt="Examination board logos" title="Examination board logos" class="Left" width="600px" height="450px" loading="lazy"/>
 
-It is also important to factor into tutoring case studies of real businesses, especially ones that students have prior knowledge of (often as consumers themselves), as well as other firms which tutees might not know about but could easily understand.
+Another often needed focus of tutoring is in supporting students to produce higher quality responses to exam questions. Evidence of well-developed contextualised analysis and contextualised evaluation in their written work are key requirements for securing a high A-level grade.
 
-Using real world businesses as aids makes mastering A-level Business more interesting and exciting, and invariably inspires students to write to a much higher standard, especially when covering business strategy topics such as Porter’s Five Forces Model of Competition, Porter’s Generic Strategies, etc..
+I attach considerable importance to ensuring tutees have sound knowledge and understanding of the financial fundamentals of real businesses (e.g. revenue streams, profitability, balance sheet strength, liquidity, etc.) as these lie at the heart of understanding past, present and future business performance.
+
+- - -
+
+<img src="/_includes/static/img/business-exam-results.avif" alt="Business exam results" title="Business exam results" class="Right" width="600px" height="450px" loading="lazy"/>
+
+Much emphasis is placed on using real world businesses and markets as much as possible in my tutoring. This case study approach is the most effective way to leverage deep learning quickly.
+
+Using real world businesses makes mastering A-level Business more interesting and exciting, and which invariably inspires students to write to a much higher standard, especially when covering the more advanced business strategy topics such as Porter’s Five Forces Model of Competition and Porter’s Generic Strategies.

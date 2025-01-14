@@ -9,9 +9,11 @@ type: article
 tags:
   - article
 ---
-My tutoring is tailored to the student’s needs. We start with a diagnostic assessment of the student’s progress to date and with a view to identifying the most important factors that need to be addressed for the student to excel in Economics.
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Documents on Wooden Surface" title="Documents on Wooden Surface" class="Right" width="600px" height="450px" loading="lazy"/>
+
+<img src="/_includes/static/img/economics-7-skills.avif" alt="Econimics 7 Skills" title="Econimics 7 Skills" class="Right" width="600px" height="450px" loading="lazy"/>
+
+My tutoring is tailored to the student’s needs. We start with a diagnostic assessment of the student’s progress to date and with a view to identifying the most important factors that need to be addressed for the student to excel in Economics.
 
 Students excel in Economics if they achieve proficiency in seven core skills. Once mastered, students are then tutored on exam technique to secure a high exam grade.
 
@@ -19,7 +21,7 @@ Most students will have already made progress mastering several of the core skil
 
 - - -
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Documents on Wooden Surface" title="Documents on Wooden Surface" class="Left" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/economics-logos.avif" alt="Economics exam body logos" title="Economics exam body logos" class="Left" width="600px" height="450px" loading="lazy"/>
 
 Most of my UK students study A-level and GCSE courses offered by the examination boards AQA, Edexcel, Eduqas and OCR.
 
@@ -29,6 +31,6 @@ I also tutor UK and overseas students the Standard- and Higher-level Economics m
 
 - - -
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Documents on Wooden Surface" title="Documents on Wooden Surface" class="Right" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/economics-exam-results.avif" alt="Economics exam results" title="Economics exam results" class="Right" width="600px" height="450px" loading="lazy"/>
 
 I offer both home and online tutoring sessions. Tuition at the student’s home is preferred by most parents, though some opt for a mix of home and online tuition.
