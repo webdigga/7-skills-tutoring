@@ -19,7 +19,7 @@ I tutor young people across the ability range and from a wide range of education
 
 - - -
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Left" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/education-skills-experience.avif" alt="Education, Skills, Experience" title="Education, Skills, Experience" class="Left" width="600px" height="450px" loading="lazy"/>
 
 ## Qualifications & Experience:
 
@@ -33,7 +33,7 @@ I tutor young people across the ability range and from a wide range of education
 
 - - -
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem ipsum" title="Lorem ipsum" class="Right" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/map.avif" alt="Map of the local area covered by Seven skills.  South West London and Surrey" title="Map of the local area covered by Seven skills.  South West London and Surrey" class="Right" width="600px" height="450px" loading="lazy"/>
 
 ## Home tutoring locations
 
