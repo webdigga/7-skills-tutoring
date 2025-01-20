@@ -16,17 +16,15 @@ At Seven Skills Tutoring, we understand the unique challenges that students face
 
 ## What We Offer
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Right" width="600px" height="450px" loading="lazy"/>
-
-
+<img src="/_includes/static/img/school-support-services.avif" alt="School Support Services" title="School Support Services" class="Right" width="600px" height="450px" loading="lazy"/>
 
 1. **Intervention tutoring** targeted at individual students under-performing against their expected exam grades.
 2. **Catch-up workshops** for groups of students needing additional support.
 3. **Exam revision sessions** geared to the school’s Examination Board courses. Half-day and whole-day revision sessions for mastering topics and exam technique.
 4. **Timetabled cover lessons** in accordance with specific Schemes of Work for Business, Economics and allied subject courses.
 5. **Catering for short-term teaching needs** – e.g. half-term or full-term teaching contracts for Business and Economics courses.
-6. **Subject teaching mentoring** for student teachers and ECTs of Business and Economics.
-7. **Advice on whole-school Business and Economics education provision** – e.g. advice of setting up, running or enhancing department provision; selecting best courses to suite learner profiles; devising teaching and learning programmes; sourcing teaching and learning resources; teacher recruitment; extra-curricular learning opportunities, etc.
+6. **Mentoring** for student teachers and ECTs of Business and Economics.
+7. **Advice on whole-school Business and Economics education provision** – e.g. advice on setting up, running or enhancing department provision; selecting best courses to suite learner profiles; devising teaching and learning programmes; sourcing teaching and learning resources; teacher recruitment; extra-curricular learning opportunities, etc.
 
 ## For More Information
 

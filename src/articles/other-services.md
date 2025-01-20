@@ -9,7 +9,7 @@ type: article
 tags:
   - article
 ---
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Right" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/a-level-economics-workshops.avif" alt="A-Level Economics workshops" title="A-Level Economics workshops" class="Right" width="600px" height="450px" loading="lazy"/>
 
 ## A-level Economics Exam Workshops
 
@@ -40,11 +40,9 @@ tags:
       </li>
 </ul>
 
-
-
 - - -
 
-<img src="/_includes/static/img/pexels-asphotograpy-95916.webp" alt="Lorem" title="Lorem" class="Left" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/a-level-business-workshops.avif" alt="A-Level Business workshops" title="A-Level Business workshops" class="Left" width="600px" height="450px" loading="lazy"/>
 
 ## A-level Business Exam Workshops
 
