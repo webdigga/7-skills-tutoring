@@ -8,6 +8,9 @@ eleventyComputed:
 
 {% import "./partials/navbar.html" as navBar with context %}
 {% import "./components/faqs.html" as faqs with context %}
+{% import "./components/banner.html" as banner with context %}
+
+{{ banner.bannerMacro() }}
 
 {{ navBar.navBarComponent('bg-[color:var(--light-blue)] xl:bg-transparent') }}
 

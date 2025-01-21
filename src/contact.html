@@ -10,6 +10,9 @@ eleventyComputed:
 ---
 
 {% import "./_includes/partials/navbar.html" as navBar with context %}
+{% import "./_includes/components/banner.html" as banner with context %}
+
+{{ banner.bannerMacro() }}
 
 {{ navBar.navBarComponent('bg-[color:var(--light-blue)] xl:bg-transparent') }}
 

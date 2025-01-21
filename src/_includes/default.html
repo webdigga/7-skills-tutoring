@@ -29,7 +29,6 @@
     <meta name="og:type" property="og:type" content="{{ ogType | safe }}">
     <meta name="og:locale" property="og:locale" content="en_GB">
     
-    <meta name="twitter:site" content="@webdigga">
     <meta name="twitter:title" content="{{ seoTitle | safe }}">
     <meta name="twitter:description" content="{{ description | safe }}">
 
@@ -92,9 +91,14 @@
       {% include "static/js/menuToggle/menuToggle.js" %}
     {% endset %}
 
+    {% set callMeButtonBehaviour %}
+      {% include "static/js/callMeButtonBehaviour/callMeButtonBehaviour.js" %}
+    {% endset %}
+
     <script type="module">
       {{ cookieConsent | jsmin | safe }}
       {{ menuToggle | jsmin | safe }}
+      {{ callMeButtonBehaviour | jsmin | safe }}
     </script>
   </body>
 </html>
