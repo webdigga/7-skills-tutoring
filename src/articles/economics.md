@@ -9,11 +9,9 @@ type: article
 tags:
   - article
 ---
-
-
 <img src="/_includes/static/img/economics-7-skills.avif" alt="Econimics 7 Skills" title="Econimics 7 Skills" class="Right" width="600px" height="450px" loading="lazy"/>
 
-My tutoring is tailored to the student’s needs. We start with a diagnostic assessment of the student’s progress to date and with a view to identifying the most important factors that need to be addressed for the student to excel in Economics.
+My tutoring is tailored to the student’s needs. We start with a diagnostic assessment of student progress to date and with a view to identifying the most important factors that need to be addressed for the tutee to master Economics.
 
 Students excel in Economics if they achieve proficiency in seven core skills. Once mastered, students are then tutored on exam technique to secure a high exam grade.
 
@@ -31,6 +29,8 @@ I also tutor UK and overseas students the Standard- and Higher-level Economics m
 
 - - -
 
-<img src="/_includes/static/img/economics-exam-results.avif" alt="Economics exam results" title="Economics exam results" class="Right" width="600px" height="450px" loading="lazy"/>
+<img src="/_includes/static/img/a-level-economics-exam-results.avif" alt="Economics exam results" title="Economics exam results" class="Right" width="600px" height="450px" loading="lazy"/>
 
-I offer both home and online tutoring sessions. Tuition at the student’s home is preferred by most parents, though some opt for a mix of home and online tuition.
+I offer both home and online tutoring sessions. Most clients prefer home tuition, though some opt for a mix of home and online coaching.
+
+Tutoring is widely known to improve learners’ exam grades. This is especially the case for students who I have worked with throughout the final year of their A-level Economics course with 76.5% achieving A* or A exam grades.

@@ -15,7 +15,7 @@ tags:
 * 60 minutes £50
 * 90 minutes £75
 
-Prices shown are for individually booked sessions. Multiple bookings of five or more sessions receive 10% discount. Email [michael@sevenskillstutoring.com](mailto:michael@sevenskillstutoring.com) or phone/text {{settings.phone}} to book sessions.
+Prices shown are for individually booked sessions. Email [michael@sevenskillstutoring.com](mailto:michael@sevenskillstutoring.com) or phone/text {{settings.phone}} to book sessions.
 
 - - -
 
@@ -25,7 +25,7 @@ Prices shown are for individually booked sessions. Multiple bookings of five or 
 * 90 minutes £85
 * 120 minutes £110
 
-Prices shown are for individually booked sessions. Multiple bookings of five or more sessions receive 10% discount. Email [michael@sevenskillstutoring.com](mailto:michael@sevenskillstutoring.com) or phone/text {{settings.phone}} to book sessions.
+Prices shown are for individually booked sessions. Email [michael@sevenskillstutoring.com](mailto:michael@sevenskillstutoring.com) or phone/text {{settings.phone}} to book sessions.
 
 - - -
 
