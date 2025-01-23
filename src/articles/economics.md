@@ -33,4 +33,4 @@ I also tutor UK and overseas students the Standard- and Higher-level Economics m
 
 I offer both home and online tutoring sessions. Most clients prefer home tuition, though some opt for a mix of home and online coaching.
 
-Tutoring is widely known to improve learners’ exam grades. This is especially the case for students who I have worked with throughout the final year of their A-level Economics course with 76.5% achieving A* or A exam grades.
+Tutoring is widely expected to improve learners exam grades. This is especially the case for students who I have worked with throughout the final year of their A-level Economics course with over three-quarters of them achieving A* or A exam grades.
