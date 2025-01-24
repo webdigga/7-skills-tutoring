@@ -1,5 +1,5 @@
 ---
-title: Tutor Profile
+title: Tutor Profile new new
 seoTitle: Michael Carragher Tutor Profile | Seven Skills Tutoring
 description: Michael Carragher provides personalised tutoring in business and
   economics to help students of all backgrounds achieve top exam grades.
@@ -10,6 +10,8 @@ tags:
   - article
 ---
 <img src="/_includes/static/img/profile.avif" alt="Photo of Michael Carragher" title="Photo of Michael Carragher" class="Right" width="600px" height="450px" loading="lazy"/>
+
+## Supporting students in realising their full potential
 
 *I aim to ensure all my students secure the best possible exam grades. Every tutee receives customised tuition to meet their specific learning needs and for the course syllabus they are studying.*
 
