@@ -11,6 +11,8 @@ tags:
   - article
   - resource
 ---
+## Core skills to evidence in A-level Economics exams
+
 <img src="/_includes/static/img/a01.avif" alt="A01 - Knowledge and understanding" title="A01 - Knowledge and understanding" class="Centre" width="1050px" height="277px" loading="lazy"/>
 
 <img src="/_includes/static/img/a02.avif" alt="A02 - Application" title="A02 - Application" class="Centre" width="1050px" height="285px" loading="lazy"/>
