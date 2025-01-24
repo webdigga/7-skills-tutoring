@@ -11,6 +11,8 @@ tags:
 ---
 We can provide tutoring sessions in your home or online. Most clients prefer home tuition, though some opt for a mix of home and online sessions.
 
+- - -
+
 ## Online tutoring sessions
 
 * 30 minutes £30
