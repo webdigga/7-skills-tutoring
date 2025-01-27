@@ -1,7 +1,7 @@
 ---
 title: Privacy policy
 seoTitle: Privacy Policy | Seven Skills Tutoring
-description: Cookie consent
+description: Read the Seven Skills Tutoring privacy policy to learn how we protect your data and ensure your information remains secure. Transparency is our priority.
 author: David White
 date: 2024-02-29T17:13:10.382Z
 type: privacy
