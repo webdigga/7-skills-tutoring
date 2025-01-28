@@ -11,6 +11,8 @@ tags:
   - article
   - resource
 ---
+## Short-Run vs Long-Run Equilibrium in Perfectly Competitive Markets
+
 Firms in a perfectly competitive market are earning \_\_\_\_\_\_\_\_\_\_\_\_\_\__ profits at price P1. At this price individual firms will be faced with a \_\_\_\_\_\_\_\_\_\_\_\__price elastic demand curve AR1=MR1. Given that firms are profit maximisers (MR1=MC), they will each be producing \_\_\_\_\_\_\_\_output at price P1, thus making supernormal profit (AR1>AC).
 
 **\* Missing words: supernormal, Q1, perfectly**
