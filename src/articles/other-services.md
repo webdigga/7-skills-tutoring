@@ -9,6 +9,14 @@ type: article
 tags:
   - article
 ---
+There is a maximum of six students per online session.
+
+We run separate workshops for the AQA and Edexcel course specifications. This enables a more focused approach to revision covering key details of each Examination Board in respect to topic coverage, types of questions and case study material in exam papers, and mark scheme nuances.
+
+In addition to online workshops, one-to-one 3-hour revision sessions at the student’s home can be given during school holidays and exam leave periods.
+
+- - -
+
 <img src="/_includes/static/img/a-level-economics-workshops.avif" alt="A-Level Economics workshops" title="A-Level Economics workshops" class="Right" width="600px" height="450px" loading="lazy"/>
 
 ## A-level Economics Exam Workshops
