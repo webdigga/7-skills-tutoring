@@ -17,9 +17,9 @@ This is a multi-purpose checklist. The right-hand column is used for selecting k
 
 As a basic minimum guide, all students should be able to tick at least two targets for each of the A01-A04 core skills shown.
 
-More advanced students might focus on specific core skills to develop and fine tune such as A3 Analysis (e.g. “Use of diagrams for building chains”, “Building extended chains”, etc.)
+More advanced students might focus on specific core skills to develop and fine tune such as A3 Analysis (e.g. “Use of diagrams for building chains”, “Building extended chains”, etc.) and/or A04 Evaluation (e.g. Use of factors/criteria for constructing judgments, etc.).
 
-and/or A04 Evaluation (e.g. Use of factors/criteria for constructing judgments, etc.). All students should read the two footnotes at the bottom of the page.
+All students should read the two footnotes at the bottom of the page.
 
 <img src="/_includes/static/img/a01.avif" alt="A01 - Knowledge and understanding" title="A01 - Knowledge and understanding" class="Centre" width="1050px" height="277px" loading="lazy"/>
 
